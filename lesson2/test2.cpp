@@ -7,7 +7,7 @@
 
 #include<iostream>
 #include "Halide.h"
-#include "/home/caffe/Halide/Halide/tools/halide_image_io.h"
+#include "halide_image_io.h"
 using namespace Halide::Tools;
 
 int main(){
