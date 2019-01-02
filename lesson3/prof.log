@@ -1,0 +1,1407 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00   191151     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::decref(Halide::Internal::IRNode const*)
+  0.00      0.00     0.00   191151     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::~IntrusivePtr()
+  0.00      0.00     0.00   173442     0.00     0.00  Halide::Internal::IRHandle::~IRHandle()
+  0.00      0.00     0.00    66479     0.00     0.00  std::__atomic_base<int>::operator++()
+  0.00      0.00     0.00    66464     0.00     0.00  std::__atomic_base<int>::operator--()
+  0.00      0.00     0.00    66386     0.00     0.00  Halide::Internal::RefCount::decrement()
+  0.00      0.00     0.00    65237     0.00     0.00  Halide::Internal::RefCount& Halide::Internal::ref_count<Halide::Internal::IRNode>(Halide::Internal::IRNode const*)
+  0.00      0.00     0.00    11423     0.00     0.00  Halide::Expr::~Expr()
+  0.00      0.00     0.00    10490     0.00     0.00  Halide::Expr* std::__addressof<Halide::Expr>(Halide::Expr&)
+  0.00      0.00     0.00    10490     0.00     0.00  void std::_Destroy<Halide::Expr>(Halide::Expr*)
+  0.00      0.00     0.00     8555     0.00     0.00  __gnu_cxx::new_allocator<Halide::Expr>::~new_allocator()
+  0.00      0.00     0.00     5821     0.00     0.00  Halide::Internal::IRHandle::IRHandle(Halide::Internal::IRHandle&&)
+  0.00      0.00     0.00     5638     0.00     0.00  bool __gnu_cxx::__is_null_pointer<char>(char*)
+  0.00      0.00     0.00     5638     0.00     0.00  std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag)
+  0.00      0.00     0.00     5638     0.00     0.00  std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&)
+  0.00      0.00     0.00     5638     0.00     0.00  std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*)
+  0.00      0.00     0.00     5617     0.00     0.00  void Halide::Internal::destroy<Halide::Internal::IRNode>(Halide::Internal::IRNode const*)
+  0.00      0.00     0.00     5032     0.00     0.00  void std::_Destroy_aux<false>::__destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*)
+  0.00      0.00     0.00     5032     0.00     0.00  void std::_Destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*)
+  0.00      0.00     0.00     4718     0.00     0.00  std::allocator<Halide::Expr>::~allocator()
+  0.00      0.00     0.00     4718     0.00     0.00  std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00     4718     0.00     0.00  std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_M_deallocate(Halide::Expr*, unsigned long)
+  0.00      0.00     0.00     4718     0.00     0.00  std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00     4718     0.00     0.00  std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::~_Vector_base()
+  0.00      0.00     0.00     4718     0.00     0.00  void std::_Destroy<Halide::Expr*, Halide::Expr>(Halide::Expr*, Halide::Expr*, std::allocator<Halide::Expr>&)
+  0.00      0.00     0.00     4151     0.00     0.00  __gnu_cxx::new_allocator<Halide::Expr>::deallocate(Halide::Expr*, unsigned long)
+  0.00      0.00     0.00     4151     0.00     0.00  std::allocator_traits<std::allocator<Halide::Expr> >::deallocate(std::allocator<Halide::Expr>&, Halide::Expr*, unsigned long)
+  0.00      0.00     0.00     4035     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::decref(Halide::Internal::BufferContents*)
+  0.00      0.00     0.00     4035     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::~IntrusivePtr()
+  0.00      0.00     0.00     3412     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::decref(Halide::Internal::ParameterContents*)
+  0.00      0.00     0.00     3412     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::~IntrusivePtr()
+  0.00      0.00     0.00     2716     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::decref(Halide::Internal::ReductionDomainContents*)
+  0.00      0.00     0.00     2716     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::~IntrusivePtr()
+  0.00      0.00     0.00     2658     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::incref(Halide::Internal::ReductionDomainContents*)
+  0.00      0.00     0.00     2424     0.00     0.00  std::remove_reference<Halide::Internal::BufferContents*&>::type&& std::move<Halide::Internal::BufferContents*&>(Halide::Internal::BufferContents*&)
+  0.00      0.00     0.00     1363     0.00     0.00  Halide::Type::Type(halide_type_code_t, int, int, halide_handle_cplusplus_type const*)
+  0.00      0.00     0.00     1017     0.00     0.00  std::char_traits<char>::compare(char const*, char const*, unsigned long)
+  0.00      0.00     0.00      906     0.00     0.00  Halide::Buffer<void>::~Buffer()
+  0.00      0.00     0.00      808     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator=(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&&)
+  0.00      0.00     0.00      808     0.00     0.00  std::remove_reference<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>::type&& std::move<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&)
+  0.00      0.00     0.00      808     0.00     0.00  void std::swap<Halide::Internal::BufferContents*>(Halide::Internal::BufferContents*&, Halide::Internal::BufferContents*&)
+  0.00      0.00     0.00      807     0.00     0.00  Halide::Buffer<void>::defined() const
+  0.00      0.00     0.00      806     0.00     0.00  void Halide::Buffer<void>::assert_can_convert_from<void>(Halide::Buffer<void> const&)
+  0.00      0.00     0.00      758     0.00     0.00  Halide::Expr::Expr(Halide::Expr&&)
+  0.00      0.00     0.00      758     0.00     0.00  std::remove_reference<Halide::Expr&>::type&& std::move<Halide::Expr&>(Halide::Expr&)
+  0.00      0.00     0.00      460     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*)
+  0.00      0.00     0.00      460     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+  0.00      0.00     0.00      460     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type)
+  0.00      0.00     0.00      460     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&)
+  0.00      0.00     0.00      452     0.00     0.00  Halide::Buffer<void>::Buffer()
+  0.00      0.00     0.00      452     0.00     0.00  Halide::Buffer<void>::Buffer<void>(Halide::Buffer<void>&&)
+  0.00      0.00     0.00      452     0.00     0.00  Halide::Internal::ReductionDomain::ReductionDomain()
+  0.00      0.00     0.00      452     0.00     0.00  Halide::Internal::ReductionDomain::~ReductionDomain()
+  0.00      0.00     0.00      452     0.00     0.00  Halide::Internal::Parameter::Parameter()
+  0.00      0.00     0.00      452     0.00     0.00  Halide::Internal::Parameter::~Parameter()
+  0.00      0.00     0.00      430     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
+  0.00      0.00     0.00      399     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::decref(Halide::Internal::FunctionGroup*)
+  0.00      0.00     0.00      390     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::~IntrusivePtr()
+  0.00      0.00     0.00      130     0.00     0.00  Halide::Internal::FunctionPtr::~FunctionPtr()
+  0.00      0.00     0.00       59     0.00     0.00  std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+  0.00      0.00     0.00       58     0.00     0.00  __gnu_cxx::new_allocator<Halide::ArgumentEstimates::MinAndExtent>::~new_allocator()
+  0.00      0.00     0.00       36     0.00     0.00  void std::_Destroy_aux<false>::__destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*)
+  0.00      0.00     0.00       36     0.00     0.00  void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*)
+  0.00      0.00     0.00       34     0.00     0.00  std::allocator<Halide::ArgumentEstimates::MinAndExtent>::~allocator()
+  0.00      0.00     0.00       34     0.00     0.00  std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00       34     0.00     0.00  std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_M_deallocate(Halide::ArgumentEstimates::MinAndExtent*, unsigned long)
+  0.00      0.00     0.00       34     0.00     0.00  std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00       34     0.00     0.00  std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~_Vector_base()
+  0.00      0.00     0.00       34     0.00     0.00  void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*, std::allocator<Halide::ArgumentEstimates::MinAndExtent>&)
+  0.00      0.00     0.00       32     0.00     0.00  std::vector<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~vector()
+  0.00      0.00     0.00       26     0.00     0.00  Halide::ArgumentEstimates::~ArgumentEstimates()
+  0.00      0.00     0.00       22     0.00     0.00  Halide::ArgumentEstimates::MinAndExtent::~MinAndExtent()
+  0.00      0.00     0.00       22     0.00     0.00  Halide::ArgumentEstimates::MinAndExtent* std::__addressof<Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent&)
+  0.00      0.00     0.00       22     0.00     0.00  void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*)
+  0.00      0.00     0.00       14     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::decref(Halide::Internal::DefinitionContents*)
+  0.00      0.00     0.00       14     0.00     0.00  std::_Base_bitset<1ul>::_Base_bitset()
+  0.00      0.00     0.00       12     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::~IntrusivePtr()
+  0.00      0.00     0.00       12     0.00     0.00  std::bitset<60ul>::bitset()
+  0.00      0.00     0.00       11     0.00     0.00  __gnu_cxx::new_allocator<Halide::ArgumentEstimates::MinAndExtent>::deallocate(Halide::ArgumentEstimates::MinAndExtent*, unsigned long)
+  0.00      0.00     0.00       11     0.00     0.00  __gnu_cxx::new_allocator<Halide::Argument>::~new_allocator()
+  0.00      0.00     0.00       11     0.00     0.00  std::allocator_traits<std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::deallocate(std::allocator<Halide::ArgumentEstimates::MinAndExtent>&, Halide::ArgumentEstimates::MinAndExtent*, unsigned long)
+  0.00      0.00     0.00       10     0.00     0.00  Halide::Var::~Var()
+  0.00      0.00     0.00       10     0.00     0.00  void std::_Destroy_aux<false>::__destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*)
+  0.00      0.00     0.00       10     0.00     0.00  Halide::Var* std::__addressof<Halide::Var>(Halide::Var&)
+  0.00      0.00     0.00       10     0.00     0.00  void std::_Destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*)
+  0.00      0.00     0.00        8     0.00     0.00  __gnu_cxx::new_allocator<Halide::Buffer<void> >::~new_allocator()
+  0.00      0.00     0.00        8     0.00     0.00  void std::_Destroy_aux<false>::__destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*)
+  0.00      0.00     0.00        8     0.00     0.00  void std::_Destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*)
+  0.00      0.00     0.00        7     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::PipelineContents>::decref(Halide::PipelineContents*)
+  0.00      0.00     0.00        7     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::PipelineContents>::~IntrusivePtr()
+  0.00      0.00     0.00        7     0.00     0.00  __gnu_cxx::new_allocator<Halide::Var>::~new_allocator()
+  0.00      0.00     0.00        7     0.00     0.00  std::allocator<Halide::Buffer<void> >::~allocator()
+  0.00      0.00     0.00        7     0.00     0.00  std::allocator<Halide::Argument>::~allocator()
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_M_deallocate(Halide::Buffer<void>*, unsigned long)
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_M_get_Tp_allocator()
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~_Vector_base()
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_M_deallocate(Halide::Argument*, unsigned long)
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::~_Vector_base()
+  0.00      0.00     0.00        7     0.00     0.00  void std::_Destroy<Halide::Buffer<void>*, Halide::Buffer<void> >(Halide::Buffer<void>*, Halide::Buffer<void>*, std::allocator<Halide::Buffer<void> >&)
+  0.00      0.00     0.00        7     0.00     0.00  void std::_Destroy<Halide::Argument*, Halide::Argument>(Halide::Argument*, Halide::Argument*, std::allocator<Halide::Argument>&)
+  0.00      0.00     0.00        6     0.00     0.00  Halide::Int(int, int)
+  0.00      0.00     0.00        6     0.00     0.00  Halide::Var::Var(Halide::Var const&)
+  0.00      0.00     0.00        6     0.00     0.00  Halide::Argument::~Argument()
+  0.00      0.00     0.00        6     0.00     0.00  Halide::Internal::Function::~Function()
+  0.00      0.00     0.00        6     0.00     0.00  Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.00     0.00        6     0.00     0.00  Halide::Var::name[abi:cxx11]() const
+  0.00      0.00     0.00        6     0.00     0.00  __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::base() const
+  0.00      0.00     0.00        6     0.00     0.00  std::allocator<Halide::Var>::~allocator()
+  0.00      0.00     0.00        6     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00        6     0.00     0.00  Halide::Argument* std::__addressof<Halide::Argument>(Halide::Argument&)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Destroy<Halide::Var>(Halide::Var*)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Destroy<Halide::Argument>(Halide::Argument*)
+  0.00      0.00     0.00        5     0.00     0.00  __gnu_cxx::new_allocator<Halide::Argument>::deallocate(Halide::Argument*, unsigned long)
+  0.00      0.00     0.00        5     0.00     0.00  std::allocator_traits<std::allocator<Halide::Argument> >::deallocate(std::allocator<Halide::Argument>&, Halide::Argument*, unsigned long)
+  0.00      0.00     0.00        4     0.00     0.00  void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<int, 4>()
+  0.00      0.00     0.00        4     0.00     0.00  Halide::Pipeline::~Pipeline()
+  0.00      0.00     0.00        4     0.00     0.00  __gnu_cxx::new_allocator<Halide::Var>::new_allocator(__gnu_cxx::new_allocator<Halide::Var> const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::allocator<Halide::Var>::allocator(std::allocator<Halide::Var> const&)
+  0.00      0.00     0.00        4     0.00     0.00  void std::_Destroy_aux<false>::__destroy<Halide::Var*>(Halide::Var*, Halide::Var*)
+  0.00      0.00     0.00        4     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        4     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_deallocate(Halide::Var*, unsigned long)
+  0.00      0.00     0.00        4     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::~_Vector_base()
+  0.00      0.00     0.00        4     0.00     0.00  void std::_Construct<Halide::Var, Halide::Var const&>(Halide::Var*, Halide::Var const&)
+  0.00      0.00     0.00        4     0.00     0.00  Halide::Var const& std::forward<Halide::Var const&>(std::remove_reference<Halide::Var const&>::type&)
+  0.00      0.00     0.00        4     0.00     0.00  void std::_Destroy<Halide::Var*>(Halide::Var*, Halide::Var*)
+  0.00      0.00     0.00        4     0.00     0.00  void std::_Destroy<Halide::Var*, Halide::Var>(Halide::Var*, Halide::Var*, std::allocator<Halide::Var>&)
+  0.00      0.00     0.00        4     0.00     0.00  operator new(unsigned long, void*)
+  0.00      0.00     0.00        3     0.00     0.00  Halide::Buffer<int>::~Buffer()
+  0.00      0.00     0.00        3     0.00     0.00  Halide::Internal::RefCount::increment()
+  0.00      0.00     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<Halide::Var>::deallocate(Halide::Var*, unsigned long)
+  0.00      0.00     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<Halide::Var>::allocate(unsigned long, void const*)
+  0.00      0.00     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<Halide::Var>::new_allocator()
+  0.00      0.00     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<Halide::Argument>::new_allocator()
+  0.00      0.00     0.00        3     0.00     0.00  bool __gnu_cxx::operator!=<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&)
+  0.00      0.00     0.00        3     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator->() const
+  0.00      0.00     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<Halide::Var>::max_size() const
+  0.00      0.00     0.00        3     0.00     0.00  std::allocator<Halide::Argument>::allocator()
+  0.00      0.00     0.00        3     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_allocate(unsigned long)
+  0.00      0.00     0.00        3     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::_Vector_impl(std::allocator<Halide::Var> const&)
+  0.00      0.00     0.00        3     0.00     0.00  std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::_Vector_impl()
+  0.00      0.00     0.00        3     0.00     0.00  std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_base()
+  0.00      0.00     0.00        3     0.00     0.00  std::allocator_traits<std::allocator<Halide::Var> >::deallocate(std::allocator<Halide::Var>&, Halide::Var*, unsigned long)
+  0.00      0.00     0.00        3     0.00     0.00  std::allocator_traits<std::allocator<Halide::Var> >::allocate(std::allocator<Halide::Var>&, unsigned long)
+  0.00      0.00     0.00        3     0.00     0.00  std::vector<Halide::Var, std::allocator<Halide::Var> >::~vector()
+  0.00      0.00     0.00        2     0.00     0.00  void Halide::Buffer<int>::assert_can_convert_from<int>(Halide::Buffer<int> const&)
+  0.00      0.00     0.00        2     0.00     0.00  Halide::Buffer<int>::Buffer<int>(Halide::Buffer<int>&&)
+  0.00      0.00     0.00        2     0.00     0.00  bool Halide::Runtime::Buffer<int, 4>::can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&)
+  0.00      0.00     0.00        2     0.00     0.00  void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&)
+  0.00      0.00     0.00        2     0.00     0.00  void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<void, 4>()
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<Halide::Buffer<void> >::deallocate(Halide::Buffer<void>*, unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::__normal_iterator(Halide::Var const* const&)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::operator++()
+  0.00      0.00     0.00        2     0.00     0.00  Halide::Var::operator Halide::Expr() const
+  0.00      0.00     0.00        2     0.00     0.00  Halide::Buffer<int>::get() const
+  0.00      0.00     0.00        2     0.00     0.00  Halide::Buffer<int>::defined() const
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::operator*() const
+  0.00      0.00     0.00        2     0.00     0.00  std::initializer_list<Halide::Var>::begin() const
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_create_storage(unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  std::allocator_traits<std::allocator<Halide::Buffer<void> > >::deallocate(std::allocator<Halide::Buffer<void> >&, Halide::Buffer<void>*, unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  Halide::Buffer<void>* std::__addressof<Halide::Buffer<void> >(Halide::Buffer<void>&)
+  0.00      0.00     0.00        2     0.00     0.00  Halide::Var& std::forward<Halide::Var&>(std::remove_reference<Halide::Var&>::type&)
+  0.00      0.00     0.00        2     0.00     0.00  void std::_Destroy<Halide::Buffer<void> >(Halide::Buffer<void>*)
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  HalideIntrospectionCanary::(anonymous namespace)::TestCompilationUnit::TestCompilationUnit()
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Realization::~Realization()
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Func::~Func()
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Stage::~Stage()
+  0.00      0.00     0.00        1     0.00     0.00  void Halide::Buffer<int>::assert_can_convert_from<void>(Halide::Buffer<void> const&)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Buffer<int>::Buffer<void>(Halide::Buffer<void> const&)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Target::Target()
+  0.00      0.00     0.00        1     0.00     0.00  Halide::FuncRef::~FuncRef()
+  0.00      0.00     0.00        1     0.00     0.00  bool Halide::Runtime::Buffer<int, 4>::can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Runtime::Buffer<int, 4>::static_halide_type()
+  0.00      0.00     0.00        1     0.00     0.00  void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Internal::Definition::~Definition()
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::incref(Halide::Internal::BufferContents*)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::ParamMap::empty_map()
+  0.00      0.00     0.00        1     0.00     0.00  Halide::ParamMap::ParamMap()
+  0.00      0.00     0.00        1     0.00     0.00  Halide::operator+(Halide::Expr, Halide::Expr)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::__alloc_traits<std::allocator<Halide::Var> >::_S_select_on_copy(std::allocator<Halide::Var> const&)
+  0.00      0.00     0.00        1     0.00     0.00  _ZNK6Halide11RealizationcvNS_6BufferIT_EEIiEEv
+  0.00      0.00     0.00        1     0.00     0.00  std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Buffer<void>::get() const
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Runtime::Buffer<void, 4>::type() const
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00        1     0.00     0.00  std::initializer_list<Halide::Var>::end() const
+  0.00      0.00     0.00        1     0.00     0.00  std::initializer_list<Halide::Var>::size() const
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Var, std::allocator<Halide::Var> >::end() const
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Var, std::allocator<Halide::Var> >::size() const
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Var, std::allocator<Halide::Var> >::begin() const
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::operator[](unsigned long) const
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<Halide::Var>::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(unsigned long, std::allocator<Halide::Var> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(std::allocator<Halide::Var> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<Halide::Var> >::select_on_container_copy_construction(std::allocator<Halide::Var> const&)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*)
+  0.00      0.00     0.00        1     0.00     0.00  std::map<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::map()
+  0.00      0.00     0.00        1     0.00     0.00  std::map<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~map()
+  0.00      0.00     0.00        1     0.00     0.00  void std::vector<Halide::Var, std::allocator<Halide::Var> >::_M_range_initialize<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::forward_iterator_tag)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::initializer_list<Halide::Var>, std::allocator<Halide::Var> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Expr, std::allocator<Halide::Expr> >::~vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Argument, std::allocator<Halide::Argument> >::vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Halide::Argument, std::allocator<Halide::Argument> >::~vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_M_initialize()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_Rb_tree_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::~_Rb_tree_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_M_begin()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_M_erase(std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >*)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~_Rb_tree()
+  0.00      0.00     0.00        1     0.00     0.00  std::iterator_traits<Halide::Var const*>::difference_type std::__distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::random_access_iterator_tag)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Var* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Var* std::uninitialized_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*)
+  0.00      0.00     0.00        1     0.00     0.00  std::iterator_traits<Halide::Var const*>::iterator_category std::__iterator_category<Halide::Var const*>(Halide::Var const* const&)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Var* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, Halide::Var>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, std::allocator<Halide::Var>&)
+  0.00      0.00     0.00        1     0.00     0.00  Halide::Var* std::__uninitialized_copy_a<Halide::Var const*, Halide::Var*, Halide::Var>(Halide::Var const*, Halide::Var const*, Halide::Var*, std::allocator<Halide::Var>&)
+  0.00      0.00     0.00        1     0.00     0.00  std::iterator_traits<Halide::Var const*>::difference_type std::distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00  191151/191151      Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::~IntrusivePtr() [9]
+[8]      0.0    0.00    0.00  191151         Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::decref(Halide::Internal::IRNode const*) [8]
+                0.00    0.00   65237/65237       Halide::Internal::RefCount& Halide::Internal::ref_count<Halide::Internal::IRNode>(Halide::Internal::IRNode const*) [14]
+                0.00    0.00   65237/66386       Halide::Internal::RefCount::decrement() [13]
+                0.00    0.00    5617/5617        void Halide::Internal::destroy<Halide::Internal::IRNode>(Halide::Internal::IRNode const*) [24]
+-----------------------------------------------
+                0.00    0.00  191151/191151      Halide::Internal::IRHandle::~IRHandle() [10]
+[9]      0.0    0.00    0.00  191151         Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::~IntrusivePtr() [9]
+                0.00    0.00  191151/191151      Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::decref(Halide::Internal::IRNode const*) [8]
+-----------------------------------------------
+                0.00    0.00  173442/173442      Halide::Expr::~Expr() [15]
+[10]     0.0    0.00    0.00  173442         Halide::Internal::IRHandle::~IRHandle() [10]
+                0.00    0.00  191151/191151      Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::~IntrusivePtr() [9]
+-----------------------------------------------
+                0.00    0.00   66479/66479       Halide::Internal::RefCount::increment() [139]
+[11]     0.0    0.00    0.00   66479         std::__atomic_base<int>::operator++() [11]
+-----------------------------------------------
+                0.00    0.00   66464/66464       Halide::Internal::RefCount::decrement() [13]
+[12]     0.0    0.00    0.00   66464         std::__atomic_base<int>::operator--() [12]
+-----------------------------------------------
+                0.00    0.00       3/66386       Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::decref(Halide::Internal::BufferContents*) [35]
+                0.00    0.00       3/66386       Halide::Internal::IntrusivePtr<Halide::PipelineContents>::decref(Halide::PipelineContents*) [96]
+                0.00    0.00      11/66386       Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::decref(Halide::Internal::DefinitionContents*) [82]
+                0.00    0.00     137/66386       Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::decref(Halide::Internal::FunctionGroup*) [64]
+                0.00    0.00     995/66386       Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::decref(Halide::Internal::ParameterContents*) [37]
+                0.00    0.00   65237/66386       Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::decref(Halide::Internal::IRNode const*) [8]
+[13]     0.0    0.00    0.00   66386         Halide::Internal::RefCount::decrement() [13]
+                0.00    0.00   66464/66464       std::__atomic_base<int>::operator--() [12]
+-----------------------------------------------
+                0.00    0.00   65237/65237       Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::decref(Halide::Internal::IRNode const*) [8]
+[14]     0.0    0.00    0.00   65237         Halide::Internal::RefCount& Halide::Internal::ref_count<Halide::Internal::IRNode>(Halide::Internal::IRNode const*) [14]
+-----------------------------------------------
+                0.00    0.00       3/11423       main [6]
+                0.00    0.00      44/11423       Halide::ArgumentEstimates::MinAndExtent::~MinAndExtent() [79]
+                0.00    0.00     128/11423       Halide::ArgumentEstimates::~ArgumentEstimates() [78]
+                0.00    0.00     758/11423       Halide::operator+(Halide::Expr, Halide::Expr) [190]
+                0.00    0.00   10490/11423       void std::_Destroy<Halide::Expr>(Halide::Expr*) [17]
+[15]     0.0    0.00    0.00   11423         Halide::Expr::~Expr() [15]
+                0.00    0.00  173442/173442      Halide::Internal::IRHandle::~IRHandle() [10]
+-----------------------------------------------
+                0.00    0.00   10490/10490       void std::_Destroy_aux<false>::__destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*) [25]
+[16]     0.0    0.00    0.00   10490         Halide::Expr* std::__addressof<Halide::Expr>(Halide::Expr&) [16]
+-----------------------------------------------
+                0.00    0.00   10490/10490       void std::_Destroy_aux<false>::__destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*) [25]
+[17]     0.0    0.00    0.00   10490         void std::_Destroy<Halide::Expr>(Halide::Expr*) [17]
+                0.00    0.00   10490/11423       Halide::Expr::~Expr() [15]
+-----------------------------------------------
+                0.00    0.00    8555/8555        std::allocator<Halide::Expr>::~allocator() [27]
+[18]     0.0    0.00    0.00    8555         __gnu_cxx::new_allocator<Halide::Expr>::~new_allocator() [18]
+-----------------------------------------------
+                0.00    0.00    5821/5821        Halide::Expr::Expr(Halide::Expr&&) [51]
+[19]     0.0    0.00    0.00    5821         Halide::Internal::IRHandle::IRHandle(Halide::Internal::IRHandle&&) [19]
+-----------------------------------------------
+                0.00    0.00    5638/5638        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [54]
+[20]     0.0    0.00    0.00    5638         bool __gnu_cxx::__is_null_pointer<char>(char*) [20]
+-----------------------------------------------
+                0.00    0.00    5638/5638        std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*) [23]
+[21]     0.0    0.00    0.00    5638         std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag) [21]
+-----------------------------------------------
+                0.00    0.00    5638/5638        std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*) [23]
+[22]     0.0    0.00    0.00    5638         std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&) [22]
+-----------------------------------------------
+                0.00    0.00    5638/5638        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [54]
+[23]     0.0    0.00    0.00    5638         std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*) [23]
+                0.00    0.00    5638/5638        std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&) [22]
+                0.00    0.00    5638/5638        std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag) [21]
+-----------------------------------------------
+                0.00    0.00    5617/5617        Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::decref(Halide::Internal::IRNode const*) [8]
+[24]     0.0    0.00    0.00    5617         void Halide::Internal::destroy<Halide::Internal::IRNode>(Halide::Internal::IRNode const*) [24]
+-----------------------------------------------
+                0.00    0.00    5032/5032        void std::_Destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*) [26]
+[25]     0.0    0.00    0.00    5032         void std::_Destroy_aux<false>::__destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*) [25]
+                0.00    0.00   10490/10490       void std::_Destroy<Halide::Expr>(Halide::Expr*) [17]
+                0.00    0.00   10490/10490       Halide::Expr* std::__addressof<Halide::Expr>(Halide::Expr&) [16]
+-----------------------------------------------
+                0.00    0.00    5032/5032        void std::_Destroy<Halide::Expr*, Halide::Expr>(Halide::Expr*, Halide::Expr*, std::allocator<Halide::Expr>&) [32]
+[26]     0.0    0.00    0.00    5032         void std::_Destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*) [26]
+                0.00    0.00    5032/5032        void std::_Destroy_aux<false>::__destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*) [25]
+-----------------------------------------------
+                0.00    0.00    4718/4718        std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_Vector_impl::~_Vector_impl() [28]
+[27]     0.0    0.00    0.00    4718         std::allocator<Halide::Expr>::~allocator() [27]
+                0.00    0.00    8555/8555        __gnu_cxx::new_allocator<Halide::Expr>::~new_allocator() [18]
+-----------------------------------------------
+                0.00    0.00    4718/4718        std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::~_Vector_base() [31]
+[28]     0.0    0.00    0.00    4718         std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_Vector_impl::~_Vector_impl() [28]
+                0.00    0.00    4718/4718        std::allocator<Halide::Expr>::~allocator() [27]
+-----------------------------------------------
+                0.00    0.00    4718/4718        std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::~_Vector_base() [31]
+[29]     0.0    0.00    0.00    4718         std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_M_deallocate(Halide::Expr*, unsigned long) [29]
+                0.00    0.00    4151/4151        std::allocator_traits<std::allocator<Halide::Expr> >::deallocate(std::allocator<Halide::Expr>&, Halide::Expr*, unsigned long) [34]
+-----------------------------------------------
+                0.00    0.00    4718/4718        std::vector<Halide::Expr, std::allocator<Halide::Expr> >::~vector() [218]
+[30]     0.0    0.00    0.00    4718         std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_M_get_Tp_allocator() [30]
+-----------------------------------------------
+                0.00    0.00    4718/4718        std::vector<Halide::Expr, std::allocator<Halide::Expr> >::~vector() [218]
+[31]     0.0    0.00    0.00    4718         std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::~_Vector_base() [31]
+                0.00    0.00    4718/4718        std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_M_deallocate(Halide::Expr*, unsigned long) [29]
+                0.00    0.00    4718/4718        std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_Vector_impl::~_Vector_impl() [28]
+-----------------------------------------------
+                0.00    0.00    4718/4718        std::vector<Halide::Expr, std::allocator<Halide::Expr> >::~vector() [218]
+[32]     0.0    0.00    0.00    4718         void std::_Destroy<Halide::Expr*, Halide::Expr>(Halide::Expr*, Halide::Expr*, std::allocator<Halide::Expr>&) [32]
+                0.00    0.00    5032/5032        void std::_Destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*) [26]
+-----------------------------------------------
+                0.00    0.00    4151/4151        std::allocator_traits<std::allocator<Halide::Expr> >::deallocate(std::allocator<Halide::Expr>&, Halide::Expr*, unsigned long) [34]
+[33]     0.0    0.00    0.00    4151         __gnu_cxx::new_allocator<Halide::Expr>::deallocate(Halide::Expr*, unsigned long) [33]
+-----------------------------------------------
+                0.00    0.00    4151/4151        std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_M_deallocate(Halide::Expr*, unsigned long) [29]
+[34]     0.0    0.00    0.00    4151         std::allocator_traits<std::allocator<Halide::Expr> >::deallocate(std::allocator<Halide::Expr>&, Halide::Expr*, unsigned long) [34]
+                0.00    0.00    4151/4151        __gnu_cxx::new_allocator<Halide::Expr>::deallocate(Halide::Expr*, unsigned long) [33]
+-----------------------------------------------
+                0.00    0.00    4035/4035        Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::~IntrusivePtr() [36]
+[35]     0.0    0.00    0.00    4035         Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::decref(Halide::Internal::BufferContents*) [35]
+                0.00    0.00       3/66386       Halide::Internal::RefCount::decrement() [13]
+-----------------------------------------------
+                0.00    0.00       3/4035        Halide::Buffer<int>::~Buffer() [138]
+                0.00    0.00    4032/4035        Halide::Buffer<void>::~Buffer() [45]
+[36]     0.0    0.00    0.00    4035         Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::~IntrusivePtr() [36]
+                0.00    0.00    4035/4035        Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::decref(Halide::Internal::BufferContents*) [35]
+-----------------------------------------------
+                0.00    0.00    3412/3412        Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::~IntrusivePtr() [38]
+[37]     0.0    0.00    0.00    3412         Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::decref(Halide::Internal::ParameterContents*) [37]
+                0.00    0.00     995/66386       Halide::Internal::RefCount::decrement() [13]
+-----------------------------------------------
+                0.00    0.00    3412/3412        Halide::Internal::Parameter::~Parameter() [62]
+[38]     0.0    0.00    0.00    3412         Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::~IntrusivePtr() [38]
+                0.00    0.00    3412/3412        Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::decref(Halide::Internal::ParameterContents*) [37]
+-----------------------------------------------
+                0.00    0.00    2716/2716        Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::~IntrusivePtr() [40]
+[39]     0.0    0.00    0.00    2716         Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::decref(Halide::Internal::ReductionDomainContents*) [39]
+-----------------------------------------------
+                0.00    0.00    2716/2716        Halide::Internal::ReductionDomain::~ReductionDomain() [60]
+[40]     0.0    0.00    0.00    2716         Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::~IntrusivePtr() [40]
+                0.00    0.00    2716/2716        Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::decref(Halide::Internal::ReductionDomainContents*) [39]
+-----------------------------------------------
+                0.00    0.00    2658/2658        Halide::Internal::ReductionDomain::ReductionDomain() [59]
+[41]     0.0    0.00    0.00    2658         Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::incref(Halide::Internal::ReductionDomainContents*) [41]
+-----------------------------------------------
+                0.00    0.00    2424/2424        void std::swap<Halide::Internal::BufferContents*>(Halide::Internal::BufferContents*&, Halide::Internal::BufferContents*&) [48]
+[42]     0.0    0.00    0.00    2424         std::remove_reference<Halide::Internal::BufferContents*&>::type&& std::move<Halide::Internal::BufferContents*&>(Halide::Internal::BufferContents*&) [42]
+-----------------------------------------------
+                0.00    0.00    1363/1363        Halide::Int(int, int) [111]
+[43]     0.0    0.00    0.00    1363         Halide::Type::Type(halide_type_code_t, int, int, halide_handle_cplusplus_type const*) [43]
+-----------------------------------------------
+                0.00    0.00    1017/1017        __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [267]
+[44]     0.0    0.00    0.00    1017         std::char_traits<char>::compare(char const*, char const*, unsigned long) [44]
+-----------------------------------------------
+                0.00    0.00       2/906         void std::_Destroy<Halide::Buffer<void> >(Halide::Buffer<void>*) [172]
+                0.00    0.00     904/906         Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [115]
+[45]     0.0    0.00    0.00     906         Halide::Buffer<void>::~Buffer() [45]
+                0.00    0.00    4032/4035        Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::~IntrusivePtr() [36]
+-----------------------------------------------
+                0.00    0.00       2/808         Halide::Buffer<int>::Buffer<int>(Halide::Buffer<int>&&) [156]
+                0.00    0.00     806/808         Halide::Buffer<void>::Buffer<void>(Halide::Buffer<void>&&) [58]
+[46]     0.0    0.00    0.00     808         Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator=(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&&) [46]
+                0.00    0.00     808/808         void std::swap<Halide::Internal::BufferContents*>(Halide::Internal::BufferContents*&, Halide::Internal::BufferContents*&) [48]
+-----------------------------------------------
+                0.00    0.00       2/808         Halide::Buffer<int>::Buffer<int>(Halide::Buffer<int>&&) [156]
+                0.00    0.00     806/808         Halide::Buffer<void>::Buffer<void>(Halide::Buffer<void>&&) [58]
+[47]     0.0    0.00    0.00     808         std::remove_reference<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>::type&& std::move<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&) [47]
+-----------------------------------------------
+                0.00    0.00     808/808         Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator=(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&&) [46]
+[48]     0.0    0.00    0.00     808         void std::swap<Halide::Internal::BufferContents*>(Halide::Internal::BufferContents*&, Halide::Internal::BufferContents*&) [48]
+                0.00    0.00    2424/2424        std::remove_reference<Halide::Internal::BufferContents*&>::type&& std::move<Halide::Internal::BufferContents*&>(Halide::Internal::BufferContents*&) [42]
+-----------------------------------------------
+                0.00    0.00       1/807         void Halide::Buffer<int>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [179]
+                0.00    0.00     806/807         void Halide::Buffer<void>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [50]
+[49]     0.0    0.00    0.00     807         Halide::Buffer<void>::defined() const [49]
+-----------------------------------------------
+                0.00    0.00     806/806         Halide::Buffer<void>::Buffer<void>(Halide::Buffer<void>&&) [58]
+[50]     0.0    0.00    0.00     806         void Halide::Buffer<void>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [50]
+                0.00    0.00     806/807         Halide::Buffer<void>::defined() const [49]
+-----------------------------------------------
+                0.00    0.00     758/758         Halide::operator+(Halide::Expr, Halide::Expr) [190]
+[51]     0.0    0.00    0.00     758         Halide::Expr::Expr(Halide::Expr&&) [51]
+                0.00    0.00    5821/5821        Halide::Internal::IRHandle::IRHandle(Halide::Internal::IRHandle&&) [19]
+-----------------------------------------------
+                0.00    0.00     758/758         Halide::operator+(Halide::Expr, Halide::Expr) [190]
+[52]     0.0    0.00    0.00     758         std::remove_reference<Halide::Expr&>::type&& std::move<Halide::Expr&>(Halide::Expr&) [52]
+-----------------------------------------------
+                0.00    0.00     460/460         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&) [56]
+[53]     0.0    0.00    0.00     460         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*) [53]
+                0.00    0.00     460/460         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type) [55]
+-----------------------------------------------
+                0.00    0.00     460/460         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type) [55]
+[54]     0.0    0.00    0.00     460         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [54]
+                0.00    0.00    5638/5638        bool __gnu_cxx::__is_null_pointer<char>(char*) [20]
+                0.00    0.00    5638/5638        std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*) [23]
+-----------------------------------------------
+                0.00    0.00     460/460         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*) [53]
+[55]     0.0    0.00    0.00     460         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type) [55]
+                0.00    0.00     460/460         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [54]
+-----------------------------------------------
+                0.00    0.00     460/460         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [63]
+[56]     0.0    0.00    0.00     460         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&) [56]
+                0.00    0.00     460/460         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*) [53]
+-----------------------------------------------
+                0.00    0.00     452/452         Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [115]
+[57]     0.0    0.00    0.00     452         Halide::Buffer<void>::Buffer() [57]
+-----------------------------------------------
+                0.00    0.00     452/452         Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [115]
+[58]     0.0    0.00    0.00     452         Halide::Buffer<void>::Buffer<void>(Halide::Buffer<void>&&) [58]
+                0.00    0.00     806/806         void Halide::Buffer<void>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [50]
+                0.00    0.00     806/808         std::remove_reference<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>::type&& std::move<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&) [47]
+                0.00    0.00     806/808         Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator=(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&&) [46]
+-----------------------------------------------
+                0.00    0.00     452/452         Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [115]
+[59]     0.0    0.00    0.00     452         Halide::Internal::ReductionDomain::ReductionDomain() [59]
+                0.00    0.00    2658/2658        Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::incref(Halide::Internal::ReductionDomainContents*) [41]
+-----------------------------------------------
+                0.00    0.00     452/452         Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [115]
+[60]     0.0    0.00    0.00     452         Halide::Internal::ReductionDomain::~ReductionDomain() [60]
+                0.00    0.00    2716/2716        Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::~IntrusivePtr() [40]
+-----------------------------------------------
+                0.00    0.00     452/452         Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [115]
+[61]     0.0    0.00    0.00     452         Halide::Internal::Parameter::Parameter() [61]
+-----------------------------------------------
+                0.00    0.00     452/452         Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [115]
+[62]     0.0    0.00    0.00     452         Halide::Internal::Parameter::~Parameter() [62]
+                0.00    0.00    3412/3412        Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::~IntrusivePtr() [38]
+-----------------------------------------------
+                0.00    0.00     430/430         std::__cxx11::to_string(int) [260]
+[63]     0.0    0.00    0.00     430         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [63]
+                0.00    0.00     460/460         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&) [56]
+-----------------------------------------------
+                0.00    0.00     399/399         Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::~IntrusivePtr() [65]
+[64]     0.0    0.00    0.00     399         Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::decref(Halide::Internal::FunctionGroup*) [64]
+                0.00    0.00     137/66386       Halide::Internal::RefCount::decrement() [13]
+-----------------------------------------------
+                0.00    0.00     390/390         Halide::Internal::FunctionPtr::~FunctionPtr() [66]
+[65]     0.0    0.00    0.00     390         Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::~IntrusivePtr() [65]
+                0.00    0.00     399/399         Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::decref(Halide::Internal::FunctionGroup*) [64]
+-----------------------------------------------
+                0.00    0.00     130/130         Halide::Internal::Function::~Function() [114]
+[66]     0.0    0.00    0.00     130         Halide::Internal::FunctionPtr::~FunctionPtr() [66]
+                0.00    0.00     390/390         Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::~IntrusivePtr() [65]
+-----------------------------------------------
+                0.00    0.00      59/59          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [268]
+[67]     0.0    0.00    0.00      59         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [67]
+-----------------------------------------------
+                0.00    0.00      58/58          std::allocator<Halide::ArgumentEstimates::MinAndExtent>::~allocator() [71]
+[68]     0.0    0.00    0.00      58         __gnu_cxx::new_allocator<Halide::ArgumentEstimates::MinAndExtent>::~new_allocator() [68]
+-----------------------------------------------
+                0.00    0.00      36/36          void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*) [70]
+[69]     0.0    0.00    0.00      36         void std::_Destroy_aux<false>::__destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*) [69]
+                0.00    0.00      22/22          void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*) [81]
+                0.00    0.00      22/22          Halide::ArgumentEstimates::MinAndExtent* std::__addressof<Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent&) [80]
+-----------------------------------------------
+                0.00    0.00      36/36          void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*, std::allocator<Halide::ArgumentEstimates::MinAndExtent>&) [76]
+[70]     0.0    0.00    0.00      36         void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*) [70]
+                0.00    0.00      36/36          void std::_Destroy_aux<false>::__destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*) [69]
+-----------------------------------------------
+                0.00    0.00      34/34          std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_Vector_impl::~_Vector_impl() [72]
+[71]     0.0    0.00    0.00      34         std::allocator<Halide::ArgumentEstimates::MinAndExtent>::~allocator() [71]
+                0.00    0.00      58/58          __gnu_cxx::new_allocator<Halide::ArgumentEstimates::MinAndExtent>::~new_allocator() [68]
+-----------------------------------------------
+                0.00    0.00      34/34          std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~_Vector_base() [75]
+[72]     0.0    0.00    0.00      34         std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_Vector_impl::~_Vector_impl() [72]
+                0.00    0.00      34/34          std::allocator<Halide::ArgumentEstimates::MinAndExtent>::~allocator() [71]
+-----------------------------------------------
+                0.00    0.00      34/34          std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~_Vector_base() [75]
+[73]     0.0    0.00    0.00      34         std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_M_deallocate(Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [73]
+                0.00    0.00      11/11          std::allocator_traits<std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::deallocate(std::allocator<Halide::ArgumentEstimates::MinAndExtent>&, Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [88]
+-----------------------------------------------
+                0.00    0.00      34/34          std::vector<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~vector() [77]
+[74]     0.0    0.00    0.00      34         std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_M_get_Tp_allocator() [74]
+-----------------------------------------------
+                0.00    0.00      34/34          std::vector<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~vector() [77]
+[75]     0.0    0.00    0.00      34         std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~_Vector_base() [75]
+                0.00    0.00      34/34          std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_M_deallocate(Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [73]
+                0.00    0.00      34/34          std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_Vector_impl::~_Vector_impl() [72]
+-----------------------------------------------
+                0.00    0.00      34/34          std::vector<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~vector() [77]
+[76]     0.0    0.00    0.00      34         void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*, std::allocator<Halide::ArgumentEstimates::MinAndExtent>&) [76]
+                0.00    0.00      36/36          void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*) [70]
+-----------------------------------------------
+                0.00    0.00      32/32          Halide::ArgumentEstimates::~ArgumentEstimates() [78]
+[77]     0.0    0.00    0.00      32         std::vector<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~vector() [77]
+                0.00    0.00      34/34          std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_M_get_Tp_allocator() [74]
+                0.00    0.00      34/34          void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*, std::allocator<Halide::ArgumentEstimates::MinAndExtent>&) [76]
+                0.00    0.00      34/34          std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~_Vector_base() [75]
+-----------------------------------------------
+                0.00    0.00      26/26          Halide::Argument::~Argument() [113]
+[78]     0.0    0.00    0.00      26         Halide::ArgumentEstimates::~ArgumentEstimates() [78]
+                0.00    0.00     128/11423       Halide::Expr::~Expr() [15]
+                0.00    0.00      32/32          std::vector<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~vector() [77]
+-----------------------------------------------
+                0.00    0.00      22/22          void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*) [81]
+[79]     0.0    0.00    0.00      22         Halide::ArgumentEstimates::MinAndExtent::~MinAndExtent() [79]
+                0.00    0.00      44/11423       Halide::Expr::~Expr() [15]
+-----------------------------------------------
+                0.00    0.00      22/22          void std::_Destroy_aux<false>::__destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*) [69]
+[80]     0.0    0.00    0.00      22         Halide::ArgumentEstimates::MinAndExtent* std::__addressof<Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent&) [80]
+-----------------------------------------------
+                0.00    0.00      22/22          void std::_Destroy_aux<false>::__destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*) [69]
+[81]     0.0    0.00    0.00      22         void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*) [81]
+                0.00    0.00      22/22          Halide::ArgumentEstimates::MinAndExtent::~MinAndExtent() [79]
+-----------------------------------------------
+                0.00    0.00      14/14          Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::~IntrusivePtr() [84]
+[82]     0.0    0.00    0.00      14         Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::decref(Halide::Internal::DefinitionContents*) [82]
+                0.00    0.00      11/66386       Halide::Internal::RefCount::decrement() [13]
+-----------------------------------------------
+                0.00    0.00      14/14          std::bitset<60ul>::bitset() [85]
+[83]     0.0    0.00    0.00      14         std::_Base_bitset<1ul>::_Base_bitset() [83]
+-----------------------------------------------
+                0.00    0.00      12/12          Halide::Internal::Definition::~Definition() [186]
+[84]     0.0    0.00    0.00      12         Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::~IntrusivePtr() [84]
+                0.00    0.00      14/14          Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::decref(Halide::Internal::DefinitionContents*) [82]
+-----------------------------------------------
+                0.00    0.00      12/12          Halide::Target::Target() [181]
+[85]     0.0    0.00    0.00      12         std::bitset<60ul>::bitset() [85]
+                0.00    0.00      14/14          std::_Base_bitset<1ul>::_Base_bitset() [83]
+-----------------------------------------------
+                0.00    0.00      11/11          std::allocator_traits<std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::deallocate(std::allocator<Halide::ArgumentEstimates::MinAndExtent>&, Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [88]
+[86]     0.0    0.00    0.00      11         __gnu_cxx::new_allocator<Halide::ArgumentEstimates::MinAndExtent>::deallocate(Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [86]
+-----------------------------------------------
+                0.00    0.00      11/11          std::allocator<Halide::Argument>::~allocator() [100]
+[87]     0.0    0.00    0.00      11         __gnu_cxx::new_allocator<Halide::Argument>::~new_allocator() [87]
+-----------------------------------------------
+                0.00    0.00      11/11          std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_M_deallocate(Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [73]
+[88]     0.0    0.00    0.00      11         std::allocator_traits<std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::deallocate(std::allocator<Halide::ArgumentEstimates::MinAndExtent>&, Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [88]
+                0.00    0.00      11/11          __gnu_cxx::new_allocator<Halide::ArgumentEstimates::MinAndExtent>::deallocate(Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [86]
+-----------------------------------------------
+                0.00    0.00       2/10          main [6]
+                0.00    0.00       2/10          std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [195]
+                0.00    0.00       6/10          void std::_Destroy<Halide::Var>(Halide::Var*) [121]
+[89]     0.0    0.00    0.00      10         Halide::Var::~Var() [89]
+-----------------------------------------------
+                0.00    0.00      10/10          void std::_Destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*) [92]
+[90]     0.0    0.00    0.00      10         void std::_Destroy_aux<false>::__destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*) [90]
+                0.00    0.00       6/6           void std::_Destroy<Halide::Argument>(Halide::Argument*) [122]
+                0.00    0.00       6/6           Halide::Argument* std::__addressof<Halide::Argument>(Halide::Argument&) [120]
+-----------------------------------------------
+                0.00    0.00       2/10          Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [211]
+                0.00    0.00       2/10          Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*) [212]
+                0.00    0.00       6/10          void std::_Destroy_aux<false>::__destroy<Halide::Var*>(Halide::Var*, Halide::Var*) [129]
+[91]     0.0    0.00    0.00      10         Halide::Var* std::__addressof<Halide::Var>(Halide::Var&) [91]
+-----------------------------------------------
+                0.00    0.00      10/10          void std::_Destroy<Halide::Argument*, Halide::Argument>(Halide::Argument*, Halide::Argument*, std::allocator<Halide::Argument>&) [110]
+[92]     0.0    0.00    0.00      10         void std::_Destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*) [92]
+                0.00    0.00      10/10          void std::_Destroy_aux<false>::__destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*) [90]
+-----------------------------------------------
+                0.00    0.00       8/8           std::allocator<Halide::Buffer<void> >::~allocator() [99]
+[93]     0.0    0.00    0.00       8         __gnu_cxx::new_allocator<Halide::Buffer<void> >::~new_allocator() [93]
+-----------------------------------------------
+                0.00    0.00       8/8           void std::_Destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*) [95]
+[94]     0.0    0.00    0.00       8         void std::_Destroy_aux<false>::__destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*) [94]
+                0.00    0.00       2/2           void std::_Destroy<Halide::Buffer<void> >(Halide::Buffer<void>*) [172]
+                0.00    0.00       2/2           Halide::Buffer<void>* std::__addressof<Halide::Buffer<void> >(Halide::Buffer<void>&) [170]
+-----------------------------------------------
+                0.00    0.00       8/8           void std::_Destroy<Halide::Buffer<void>*, Halide::Buffer<void> >(Halide::Buffer<void>*, Halide::Buffer<void>*, std::allocator<Halide::Buffer<void> >&) [109]
+[95]     0.0    0.00    0.00       8         void std::_Destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*) [95]
+                0.00    0.00       8/8           void std::_Destroy_aux<false>::__destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*) [94]
+-----------------------------------------------
+                0.00    0.00       7/7           Halide::Internal::IntrusivePtr<Halide::PipelineContents>::~IntrusivePtr() [97]
+[96]     0.0    0.00    0.00       7         Halide::Internal::IntrusivePtr<Halide::PipelineContents>::decref(Halide::PipelineContents*) [96]
+                0.00    0.00       3/66386       Halide::Internal::RefCount::decrement() [13]
+-----------------------------------------------
+                0.00    0.00       7/7           Halide::Pipeline::~Pipeline() [126]
+[97]     0.0    0.00    0.00       7         Halide::Internal::IntrusivePtr<Halide::PipelineContents>::~IntrusivePtr() [97]
+                0.00    0.00       7/7           Halide::Internal::IntrusivePtr<Halide::PipelineContents>::decref(Halide::PipelineContents*) [96]
+-----------------------------------------------
+                0.00    0.00       7/7           std::allocator<Halide::Var>::~allocator() [118]
+[98]     0.0    0.00    0.00       7         __gnu_cxx::new_allocator<Halide::Var>::~new_allocator() [98]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_Vector_impl::~_Vector_impl() [101]
+[99]     0.0    0.00    0.00       7         std::allocator<Halide::Buffer<void> >::~allocator() [99]
+                0.00    0.00       8/8           __gnu_cxx::new_allocator<Halide::Buffer<void> >::~new_allocator() [93]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::~_Vector_impl() [105]
+[100]    0.0    0.00    0.00       7         std::allocator<Halide::Argument>::~allocator() [100]
+                0.00    0.00      11/11          __gnu_cxx::new_allocator<Halide::Argument>::~new_allocator() [87]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~_Vector_base() [104]
+[101]    0.0    0.00    0.00       7         std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_Vector_impl::~_Vector_impl() [101]
+                0.00    0.00       7/7           std::allocator<Halide::Buffer<void> >::~allocator() [99]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~_Vector_base() [104]
+[102]    0.0    0.00    0.00       7         std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_M_deallocate(Halide::Buffer<void>*, unsigned long) [102]
+                0.00    0.00       2/2           std::allocator_traits<std::allocator<Halide::Buffer<void> > >::deallocate(std::allocator<Halide::Buffer<void> >&, Halide::Buffer<void>*, unsigned long) [169]
+-----------------------------------------------
+                0.00    0.00       7/7           std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~vector() [219]
+[103]    0.0    0.00    0.00       7         std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_M_get_Tp_allocator() [103]
+-----------------------------------------------
+                0.00    0.00       7/7           std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~vector() [219]
+[104]    0.0    0.00    0.00       7         std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~_Vector_base() [104]
+                0.00    0.00       7/7           std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_Vector_impl::~_Vector_impl() [101]
+                0.00    0.00       7/7           std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_M_deallocate(Halide::Buffer<void>*, unsigned long) [102]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::~_Vector_base() [108]
+[105]    0.0    0.00    0.00       7         std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::~_Vector_impl() [105]
+                0.00    0.00       7/7           std::allocator<Halide::Argument>::~allocator() [100]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::~_Vector_base() [108]
+[106]    0.0    0.00    0.00       7         std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_M_deallocate(Halide::Argument*, unsigned long) [106]
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<Halide::Argument> >::deallocate(std::allocator<Halide::Argument>&, Halide::Argument*, unsigned long) [124]
+-----------------------------------------------
+                0.00    0.00       7/7           std::vector<Halide::Argument, std::allocator<Halide::Argument> >::~vector() [221]
+[107]    0.0    0.00    0.00       7         std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_M_get_Tp_allocator() [107]
+-----------------------------------------------
+                0.00    0.00       7/7           std::vector<Halide::Argument, std::allocator<Halide::Argument> >::~vector() [221]
+[108]    0.0    0.00    0.00       7         std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::~_Vector_base() [108]
+                0.00    0.00       7/7           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_M_deallocate(Halide::Argument*, unsigned long) [106]
+                0.00    0.00       7/7           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::~_Vector_impl() [105]
+-----------------------------------------------
+                0.00    0.00       7/7           std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~vector() [219]
+[109]    0.0    0.00    0.00       7         void std::_Destroy<Halide::Buffer<void>*, Halide::Buffer<void> >(Halide::Buffer<void>*, Halide::Buffer<void>*, std::allocator<Halide::Buffer<void> >&) [109]
+                0.00    0.00       8/8           void std::_Destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*) [95]
+-----------------------------------------------
+                0.00    0.00       7/7           std::vector<Halide::Argument, std::allocator<Halide::Argument> >::~vector() [221]
+[110]    0.0    0.00    0.00       7         void std::_Destroy<Halide::Argument*, Halide::Argument>(Halide::Argument*, Halide::Argument*, std::allocator<Halide::Argument>&) [110]
+                0.00    0.00      10/10          void std::_Destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*) [92]
+-----------------------------------------------
+                0.00    0.00       6/6           Halide::Var::operator Halide::Expr() const [163]
+[111]    0.0    0.00    0.00       6         Halide::Int(int, int) [111]
+                0.00    0.00    1363/1363        Halide::Type::Type(halide_type_code_t, int, int, halide_handle_cplusplus_type const*) [43]
+-----------------------------------------------
+                0.00    0.00       2/6           std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [195]
+                0.00    0.00       4/6           void std::_Construct<Halide::Var, Halide::Var const&>(Halide::Var*, Halide::Var const&) [133]
+[112]    0.0    0.00    0.00       6         Halide::Var::Var(Halide::Var const&) [112]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Destroy<Halide::Argument>(Halide::Argument*) [122]
+[113]    0.0    0.00    0.00       6         Halide::Argument::~Argument() [113]
+                0.00    0.00      26/26          Halide::ArgumentEstimates::~ArgumentEstimates() [78]
+-----------------------------------------------
+                0.00    0.00       1/6           Halide::Stage::~Stage() [178]
+                0.00    0.00       1/6           Halide::FuncRef::~FuncRef() [182]
+                0.00    0.00       4/6           Halide::Func::~Func() [177]
+[114]    0.0    0.00    0.00       6         Halide::Internal::Function::~Function() [114]
+                0.00    0.00     130/130         Halide::Internal::FunctionPtr::~FunctionPtr() [66]
+-----------------------------------------------
+                0.00    0.00       6/6           Halide::Var::operator Halide::Expr() const [163]
+[115]    0.0    0.00    0.00       6         Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [115]
+                0.00    0.00     904/906         Halide::Buffer<void>::~Buffer() [45]
+                0.00    0.00     452/452         Halide::Internal::ReductionDomain::ReductionDomain() [59]
+                0.00    0.00     452/452         Halide::Internal::Parameter::Parameter() [61]
+                0.00    0.00     452/452         Halide::Buffer<void>::Buffer() [57]
+                0.00    0.00     452/452         Halide::Buffer<void>::Buffer<void>(Halide::Buffer<void>&&) [58]
+                0.00    0.00     452/452         Halide::Internal::Parameter::~Parameter() [62]
+                0.00    0.00     452/452         Halide::Internal::ReductionDomain::~ReductionDomain() [60]
+-----------------------------------------------
+                0.00    0.00       6/6           Halide::Var::operator Halide::Expr() const [163]
+[116]    0.0    0.00    0.00       6         Halide::Var::name[abi:cxx11]() const [116]
+-----------------------------------------------
+                0.00    0.00       6/6           bool __gnu_cxx::operator!=<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&) [144]
+[117]    0.0    0.00    0.00       6         __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::base() const [117]
+-----------------------------------------------
+                0.00    0.00       1/6           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+                0.00    0.00       1/6           std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [195]
+                0.00    0.00       4/6           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::~_Vector_impl() [130]
+[118]    0.0    0.00    0.00       6         std::allocator<Halide::Var>::~allocator() [118]
+                0.00    0.00       7/7           __gnu_cxx::new_allocator<Halide::Var>::~new_allocator() [98]
+-----------------------------------------------
+                0.00    0.00       1/6           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+                0.00    0.00       1/6           void std::vector<Halide::Var, std::allocator<Halide::Var> >::_M_range_initialize<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::forward_iterator_tag) [215]
+                0.00    0.00       4/6           std::vector<Halide::Var, std::allocator<Halide::Var> >::~vector() [154]
+[119]    0.0    0.00    0.00       6         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator() [119]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Destroy_aux<false>::__destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*) [90]
+[120]    0.0    0.00    0.00       6         Halide::Argument* std::__addressof<Halide::Argument>(Halide::Argument&) [120]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Destroy_aux<false>::__destroy<Halide::Var*>(Halide::Var*, Halide::Var*) [129]
+[121]    0.0    0.00    0.00       6         void std::_Destroy<Halide::Var>(Halide::Var*) [121]
+                0.00    0.00       6/10          Halide::Var::~Var() [89]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Destroy_aux<false>::__destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*) [90]
+[122]    0.0    0.00    0.00       6         void std::_Destroy<Halide::Argument>(Halide::Argument*) [122]
+                0.00    0.00       6/6           Halide::Argument::~Argument() [113]
+-----------------------------------------------
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<Halide::Argument> >::deallocate(std::allocator<Halide::Argument>&, Halide::Argument*, unsigned long) [124]
+[123]    0.0    0.00    0.00       5         __gnu_cxx::new_allocator<Halide::Argument>::deallocate(Halide::Argument*, unsigned long) [123]
+-----------------------------------------------
+                0.00    0.00       5/5           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_M_deallocate(Halide::Argument*, unsigned long) [106]
+[124]    0.0    0.00    0.00       5         std::allocator_traits<std::allocator<Halide::Argument> >::deallocate(std::allocator<Halide::Argument>&, Halide::Argument*, unsigned long) [124]
+                0.00    0.00       5/5           __gnu_cxx::new_allocator<Halide::Argument>::deallocate(Halide::Argument*, unsigned long) [123]
+-----------------------------------------------
+                0.00    0.00       2/4           void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&) [158]
+                0.00    0.00       2/4           bool Halide::Runtime::Buffer<int, 4>::can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&) [157]
+[125]    0.0    0.00    0.00       4         void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<int, 4>() [125]
+-----------------------------------------------
+                0.00    0.00       4/4           Halide::Func::~Func() [177]
+[126]    0.0    0.00    0.00       4         Halide::Pipeline::~Pipeline() [126]
+                0.00    0.00       7/7           Halide::Internal::IntrusivePtr<Halide::PipelineContents>::~IntrusivePtr() [97]
+-----------------------------------------------
+                0.00    0.00       4/4           std::allocator<Halide::Var>::allocator(std::allocator<Halide::Var> const&) [128]
+[127]    0.0    0.00    0.00       4         __gnu_cxx::new_allocator<Halide::Var>::new_allocator(__gnu_cxx::new_allocator<Halide::Var> const&) [127]
+-----------------------------------------------
+                0.00    0.00       1/4           std::allocator_traits<std::allocator<Halide::Var> >::select_on_container_copy_construction(std::allocator<Halide::Var> const&) [210]
+                0.00    0.00       3/4           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::_Vector_impl(std::allocator<Halide::Var> const&) [149]
+[128]    0.0    0.00    0.00       4         std::allocator<Halide::Var>::allocator(std::allocator<Halide::Var> const&) [128]
+                0.00    0.00       4/4           __gnu_cxx::new_allocator<Halide::Var>::new_allocator(__gnu_cxx::new_allocator<Halide::Var> const&) [127]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::_Destroy<Halide::Var*>(Halide::Var*, Halide::Var*) [135]
+[129]    0.0    0.00    0.00       4         void std::_Destroy_aux<false>::__destroy<Halide::Var*>(Halide::Var*, Halide::Var*) [129]
+                0.00    0.00       6/6           void std::_Destroy<Halide::Var>(Halide::Var*) [121]
+                0.00    0.00       6/10          Halide::Var* std::__addressof<Halide::Var>(Halide::Var&) [91]
+-----------------------------------------------
+                0.00    0.00       4/4           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::~_Vector_base() [132]
+[130]    0.0    0.00    0.00       4         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::~_Vector_impl() [130]
+                0.00    0.00       4/6           std::allocator<Halide::Var>::~allocator() [118]
+-----------------------------------------------
+                0.00    0.00       4/4           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::~_Vector_base() [132]
+[131]    0.0    0.00    0.00       4         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_deallocate(Halide::Var*, unsigned long) [131]
+                0.00    0.00       3/3           std::allocator_traits<std::allocator<Halide::Var> >::deallocate(std::allocator<Halide::Var>&, Halide::Var*, unsigned long) [152]
+-----------------------------------------------
+                0.00    0.00       4/4           std::vector<Halide::Var, std::allocator<Halide::Var> >::~vector() [154]
+[132]    0.0    0.00    0.00       4         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::~_Vector_base() [132]
+                0.00    0.00       4/4           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_deallocate(Halide::Var*, unsigned long) [131]
+                0.00    0.00       4/4           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::~_Vector_impl() [130]
+-----------------------------------------------
+                0.00    0.00       2/4           Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [211]
+                0.00    0.00       2/4           Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*) [212]
+[133]    0.0    0.00    0.00       4         void std::_Construct<Halide::Var, Halide::Var const&>(Halide::Var*, Halide::Var const&) [133]
+                0.00    0.00       4/4           Halide::Var const& std::forward<Halide::Var const&>(std::remove_reference<Halide::Var const&>::type&) [134]
+                0.00    0.00       4/4           operator new(unsigned long, void*) [137]
+                0.00    0.00       4/6           Halide::Var::Var(Halide::Var const&) [112]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::_Construct<Halide::Var, Halide::Var const&>(Halide::Var*, Halide::Var const&) [133]
+[134]    0.0    0.00    0.00       4         Halide::Var const& std::forward<Halide::Var const&>(std::remove_reference<Halide::Var const&>::type&) [134]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::_Destroy<Halide::Var*, Halide::Var>(Halide::Var*, Halide::Var*, std::allocator<Halide::Var>&) [136]
+[135]    0.0    0.00    0.00       4         void std::_Destroy<Halide::Var*>(Halide::Var*, Halide::Var*) [135]
+                0.00    0.00       4/4           void std::_Destroy_aux<false>::__destroy<Halide::Var*>(Halide::Var*, Halide::Var*) [129]
+-----------------------------------------------
+                0.00    0.00       4/4           std::vector<Halide::Var, std::allocator<Halide::Var> >::~vector() [154]
+[136]    0.0    0.00    0.00       4         void std::_Destroy<Halide::Var*, Halide::Var>(Halide::Var*, Halide::Var*, std::allocator<Halide::Var>&) [136]
+                0.00    0.00       4/4           void std::_Destroy<Halide::Var*>(Halide::Var*, Halide::Var*) [135]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::_Construct<Halide::Var, Halide::Var const&>(Halide::Var*, Halide::Var const&) [133]
+[137]    0.0    0.00    0.00       4         operator new(unsigned long, void*) [137]
+-----------------------------------------------
+                0.00    0.00       1/3           _ZNK6Halide11RealizationcvNS_6BufferIT_EEIiEEv [194]
+                0.00    0.00       2/3           main [6]
+[138]    0.0    0.00    0.00       3         Halide::Buffer<int>::~Buffer() [138]
+                0.00    0.00       3/4035        Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::~IntrusivePtr() [36]
+-----------------------------------------------
+                0.00    0.00       3/3           Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::incref(Halide::Internal::BufferContents*) [187]
+[139]    0.0    0.00    0.00       3         Halide::Internal::RefCount::increment() [139]
+                0.00    0.00   66479/66479       std::__atomic_base<int>::operator++() [11]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator_traits<std::allocator<Halide::Var> >::deallocate(std::allocator<Halide::Var>&, Halide::Var*, unsigned long) [152]
+[140]    0.0    0.00    0.00       3         __gnu_cxx::new_allocator<Halide::Var>::deallocate(Halide::Var*, unsigned long) [140]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator_traits<std::allocator<Halide::Var> >::allocate(std::allocator<Halide::Var>&, unsigned long) [153]
+[141]    0.0    0.00    0.00       3         __gnu_cxx::new_allocator<Halide::Var>::allocate(unsigned long, void const*) [141]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<Halide::Var>::max_size() const [146]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator<Halide::Var>::allocator() [205]
+[142]    0.0    0.00    0.00       3         __gnu_cxx::new_allocator<Halide::Var>::new_allocator() [142]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator<Halide::Argument>::allocator() [147]
+[143]    0.0    0.00    0.00       3         __gnu_cxx::new_allocator<Halide::Argument>::new_allocator() [143]
+-----------------------------------------------
+                0.00    0.00       3/3           Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [211]
+[144]    0.0    0.00    0.00       3         bool __gnu_cxx::operator!=<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&) [144]
+                0.00    0.00       6/6           __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::base() const [117]
+-----------------------------------------------
+                0.00    0.00       1/3           Halide::Buffer<void>::get() const [196]
+                0.00    0.00       2/3           Halide::Buffer<int>::get() const [164]
+[145]    0.0    0.00    0.00       3         Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator->() const [145]
+-----------------------------------------------
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<Halide::Var>::allocate(unsigned long, void const*) [141]
+[146]    0.0    0.00    0.00       3         __gnu_cxx::new_allocator<Halide::Var>::max_size() const [146]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::_Vector_impl() [150]
+[147]    0.0    0.00    0.00       3         std::allocator<Halide::Argument>::allocator() [147]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<Halide::Argument>::new_allocator() [143]
+-----------------------------------------------
+                0.00    0.00       1/3           void std::vector<Halide::Var, std::allocator<Halide::Var> >::_M_range_initialize<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::forward_iterator_tag) [215]
+                0.00    0.00       2/3           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_create_storage(unsigned long) [168]
+[148]    0.0    0.00    0.00       3         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_allocate(unsigned long) [148]
+                0.00    0.00       3/3           std::allocator_traits<std::allocator<Halide::Var> >::allocate(std::allocator<Halide::Var>&, unsigned long) [153]
+-----------------------------------------------
+                0.00    0.00       1/3           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(std::allocator<Halide::Var> const&) [209]
+                0.00    0.00       2/3           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(unsigned long, std::allocator<Halide::Var> const&) [208]
+[149]    0.0    0.00    0.00       3         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::_Vector_impl(std::allocator<Halide::Var> const&) [149]
+                0.00    0.00       3/4           std::allocator<Halide::Var>::allocator(std::allocator<Halide::Var> const&) [128]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_base() [151]
+[150]    0.0    0.00    0.00       3         std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::_Vector_impl() [150]
+                0.00    0.00       3/3           std::allocator<Halide::Argument>::allocator() [147]
+-----------------------------------------------
+                0.00    0.00       3/3           std::vector<Halide::Argument, std::allocator<Halide::Argument> >::vector() [220]
+[151]    0.0    0.00    0.00       3         std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_base() [151]
+                0.00    0.00       3/3           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::_Vector_impl() [150]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_deallocate(Halide::Var*, unsigned long) [131]
+[152]    0.0    0.00    0.00       3         std::allocator_traits<std::allocator<Halide::Var> >::deallocate(std::allocator<Halide::Var>&, Halide::Var*, unsigned long) [152]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<Halide::Var>::deallocate(Halide::Var*, unsigned long) [140]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_allocate(unsigned long) [148]
+[153]    0.0    0.00    0.00       3         std::allocator_traits<std::allocator<Halide::Var> >::allocate(std::allocator<Halide::Var>&, unsigned long) [153]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<Halide::Var>::allocate(unsigned long, void const*) [141]
+-----------------------------------------------
+                0.00    0.00       1/3           Halide::Stage::~Stage() [178]
+                0.00    0.00       2/3           std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [195]
+[154]    0.0    0.00    0.00       3         std::vector<Halide::Var, std::allocator<Halide::Var> >::~vector() [154]
+                0.00    0.00       4/6           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator() [119]
+                0.00    0.00       4/4           void std::_Destroy<Halide::Var*, Halide::Var>(Halide::Var*, Halide::Var*, std::allocator<Halide::Var>&) [136]
+                0.00    0.00       4/4           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::~_Vector_base() [132]
+-----------------------------------------------
+                0.00    0.00       2/2           Halide::Buffer<int>::Buffer<int>(Halide::Buffer<int>&&) [156]
+[155]    0.0    0.00    0.00       2         void Halide::Buffer<int>::assert_can_convert_from<int>(Halide::Buffer<int> const&) [155]
+                0.00    0.00       2/2           Halide::Buffer<int>::defined() const [165]
+                0.00    0.00       2/2           void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&) [158]
+                0.00    0.00       2/2           Halide::Buffer<int>::get() const [164]
+-----------------------------------------------
+                0.00    0.00       1/2           main [6]
+                0.00    0.00       1/2           _ZNK6Halide11RealizationcvNS_6BufferIT_EEIiEEv [194]
+[156]    0.0    0.00    0.00       2         Halide::Buffer<int>::Buffer<int>(Halide::Buffer<int>&&) [156]
+                0.00    0.00       2/2           void Halide::Buffer<int>::assert_can_convert_from<int>(Halide::Buffer<int> const&) [155]
+                0.00    0.00       2/808         std::remove_reference<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>::type&& std::move<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&) [47]
+                0.00    0.00       2/808         Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator=(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&&) [46]
+-----------------------------------------------
+                0.00    0.00       2/2           void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&) [158]
+[157]    0.0    0.00    0.00       2         bool Halide::Runtime::Buffer<int, 4>::can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&) [157]
+                0.00    0.00       2/4           void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<int, 4>() [125]
+-----------------------------------------------
+                0.00    0.00       2/2           void Halide::Buffer<int>::assert_can_convert_from<int>(Halide::Buffer<int> const&) [155]
+[158]    0.0    0.00    0.00       2         void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&) [158]
+                0.00    0.00       2/4           void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<int, 4>() [125]
+                0.00    0.00       2/2           bool Halide::Runtime::Buffer<int, 4>::can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&) [157]
+-----------------------------------------------
+                0.00    0.00       1/2           void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [185]
+                0.00    0.00       1/2           bool Halide::Runtime::Buffer<int, 4>::can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [183]
+[159]    0.0    0.00    0.00       2         void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<void, 4>() [159]
+-----------------------------------------------
+                0.00    0.00       2/2           std::allocator_traits<std::allocator<Halide::Buffer<void> > >::deallocate(std::allocator<Halide::Buffer<void> >&, Halide::Buffer<void>*, unsigned long) [169]
+[160]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<Halide::Buffer<void> >::deallocate(Halide::Buffer<void>*, unsigned long) [160]
+-----------------------------------------------
+                0.00    0.00       1/2           std::vector<Halide::Var, std::allocator<Halide::Var> >::begin() const [203]
+                0.00    0.00       1/2           std::vector<Halide::Var, std::allocator<Halide::Var> >::end() const [201]
+[161]    0.0    0.00    0.00       2         __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::__normal_iterator(Halide::Var const* const&) [161]
+-----------------------------------------------
+                0.00    0.00       2/2           Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [211]
+[162]    0.0    0.00    0.00       2         __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::operator++() [162]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[163]    0.0    0.00    0.00       2         Halide::Var::operator Halide::Expr() const [163]
+                0.00    0.00       6/6           Halide::Var::name[abi:cxx11]() const [116]
+                0.00    0.00       6/6           Halide::Int(int, int) [111]
+                0.00    0.00       6/6           Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [115]
+-----------------------------------------------
+                0.00    0.00       2/2           void Halide::Buffer<int>::assert_can_convert_from<int>(Halide::Buffer<int> const&) [155]
+[164]    0.0    0.00    0.00       2         Halide::Buffer<int>::get() const [164]
+                0.00    0.00       2/3           Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator->() const [145]
+-----------------------------------------------
+                0.00    0.00       2/2           void Halide::Buffer<int>::assert_can_convert_from<int>(Halide::Buffer<int> const&) [155]
+[165]    0.0    0.00    0.00       2         Halide::Buffer<int>::defined() const [165]
+-----------------------------------------------
+                0.00    0.00       2/2           Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [211]
+[166]    0.0    0.00    0.00       2         __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::operator*() const [166]
+-----------------------------------------------
+                0.00    0.00       1/2           std::initializer_list<Halide::Var>::end() const [199]
+                0.00    0.00       1/2           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::initializer_list<Halide::Var>, std::allocator<Halide::Var> const&) [216]
+[167]    0.0    0.00    0.00       2         std::initializer_list<Halide::Var>::begin() const [167]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(unsigned long, std::allocator<Halide::Var> const&) [208]
+[168]    0.0    0.00    0.00       2         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_create_storage(unsigned long) [168]
+                0.00    0.00       2/3           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_allocate(unsigned long) [148]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_M_deallocate(Halide::Buffer<void>*, unsigned long) [102]
+[169]    0.0    0.00    0.00       2         std::allocator_traits<std::allocator<Halide::Buffer<void> > >::deallocate(std::allocator<Halide::Buffer<void> >&, Halide::Buffer<void>*, unsigned long) [169]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<Halide::Buffer<void> >::deallocate(Halide::Buffer<void>*, unsigned long) [160]
+-----------------------------------------------
+                0.00    0.00       2/2           void std::_Destroy_aux<false>::__destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*) [94]
+[170]    0.0    0.00    0.00       2         Halide::Buffer<void>* std::__addressof<Halide::Buffer<void> >(Halide::Buffer<void>&) [170]
+-----------------------------------------------
+                0.00    0.00       2/2           std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [195]
+[171]    0.0    0.00    0.00       2         Halide::Var& std::forward<Halide::Var&>(std::remove_reference<Halide::Var&>::type&) [171]
+-----------------------------------------------
+                0.00    0.00       2/2           void std::_Destroy_aux<false>::__destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*) [94]
+[172]    0.0    0.00    0.00       2         void std::_Destroy<Halide::Buffer<void> >(Halide::Buffer<void>*) [172]
+                0.00    0.00       2/906         Halide::Buffer<void>::~Buffer() [45]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [276]
+[173]    0.0    0.00    0.00       1         _GLOBAL__sub_I_main [173]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [174]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [173]
+[174]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [174]
+                0.00    0.00       1/1           HalideIntrospectionCanary::(anonymous namespace)::TestCompilationUnit::TestCompilationUnit() [175]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [174]
+[175]    0.0    0.00    0.00       1         HalideIntrospectionCanary::(anonymous namespace)::TestCompilationUnit::TestCompilationUnit() [175]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[176]    0.0    0.00    0.00       1         Halide::Realization::~Realization() [176]
+                0.00    0.00       1/1           std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~vector() [219]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[177]    0.0    0.00    0.00       1         Halide::Func::~Func() [177]
+                0.00    0.00       4/6           Halide::Internal::Function::~Function() [114]
+                0.00    0.00       4/4           Halide::Pipeline::~Pipeline() [126]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[178]    0.0    0.00    0.00       1         Halide::Stage::~Stage() [178]
+                0.00    0.00       1/3           std::vector<Halide::Var, std::allocator<Halide::Var> >::~vector() [154]
+                0.00    0.00       1/6           Halide::Internal::Function::~Function() [114]
+                0.00    0.00       1/1           Halide::Internal::Definition::~Definition() [186]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::Buffer<int>::Buffer<void>(Halide::Buffer<void> const&) [180]
+[179]    0.0    0.00    0.00       1         void Halide::Buffer<int>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [179]
+                0.00    0.00       1/807         Halide::Buffer<void>::defined() const [49]
+                0.00    0.00       1/1           void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [185]
+                0.00    0.00       1/1           Halide::Buffer<void>::get() const [196]
+-----------------------------------------------
+                0.00    0.00       1/1           _ZNK6Halide11RealizationcvNS_6BufferIT_EEIiEEv [194]
+[180]    0.0    0.00    0.00       1         Halide::Buffer<int>::Buffer<void>(Halide::Buffer<void> const&) [180]
+                0.00    0.00       1/1           Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::incref(Halide::Internal::BufferContents*) [187]
+                0.00    0.00       1/1           void Halide::Buffer<int>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [179]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[181]    0.0    0.00    0.00       1         Halide::Target::Target() [181]
+                0.00    0.00      12/12          std::bitset<60ul>::bitset() [85]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[182]    0.0    0.00    0.00       1         Halide::FuncRef::~FuncRef() [182]
+                0.00    0.00       1/6           Halide::Internal::Function::~Function() [114]
+                0.00    0.00       1/1           std::vector<Halide::Expr, std::allocator<Halide::Expr> >::~vector() [218]
+-----------------------------------------------
+                0.00    0.00       1/1           void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [185]
+[183]    0.0    0.00    0.00       1         bool Halide::Runtime::Buffer<int, 4>::can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [183]
+                0.00    0.00       1/1           Halide::Runtime::Buffer<int, 4>::static_halide_type() [184]
+                0.00    0.00       1/2           void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<void, 4>() [159]
+                0.00    0.00       1/1           Halide::Runtime::Buffer<void, 4>::type() const [197]
+-----------------------------------------------
+                0.00    0.00       1/1           bool Halide::Runtime::Buffer<int, 4>::can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [183]
+[184]    0.0    0.00    0.00       1         Halide::Runtime::Buffer<int, 4>::static_halide_type() [184]
+-----------------------------------------------
+                0.00    0.00       1/1           void Halide::Buffer<int>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [179]
+[185]    0.0    0.00    0.00       1         void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [185]
+                0.00    0.00       1/2           void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<void, 4>() [159]
+                0.00    0.00       1/1           bool Halide::Runtime::Buffer<int, 4>::can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [183]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::Stage::~Stage() [178]
+[186]    0.0    0.00    0.00       1         Halide::Internal::Definition::~Definition() [186]
+                0.00    0.00      12/12          Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::~IntrusivePtr() [84]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::Buffer<int>::Buffer<void>(Halide::Buffer<void> const&) [180]
+[187]    0.0    0.00    0.00       1         Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::incref(Halide::Internal::BufferContents*) [187]
+                0.00    0.00       3/3           Halide::Internal::RefCount::increment() [139]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[188]    0.0    0.00    0.00       1         Halide::ParamMap::empty_map() [188]
+                0.00    0.00       1/1           Halide::ParamMap::ParamMap() [189]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::ParamMap::empty_map() [188]
+[189]    0.0    0.00    0.00       1         Halide::ParamMap::ParamMap() [189]
+                0.00    0.00       1/1           std::map<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::map() [213]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[190]    0.0    0.00    0.00       1         Halide::operator+(Halide::Expr, Halide::Expr) [190]
+                0.00    0.00     758/758         std::remove_reference<Halide::Expr&>::type&& std::move<Halide::Expr&>(Halide::Expr&) [52]
+                0.00    0.00     758/758         Halide::Expr::Expr(Halide::Expr&&) [51]
+                0.00    0.00     758/11423       Halide::Expr::~Expr() [15]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::allocator() [206]
+[191]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::new_allocator() [191]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~allocator() [207]
+[192]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~new_allocator() [192]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+[193]    0.0    0.00    0.00       1         __gnu_cxx::__alloc_traits<std::allocator<Halide::Var> >::_S_select_on_copy(std::allocator<Halide::Var> const&) [193]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<Halide::Var> >::select_on_container_copy_construction(std::allocator<Halide::Var> const&) [210]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[194]    0.0    0.00    0.00       1         _ZNK6Halide11RealizationcvNS_6BufferIT_EEIiEEv [194]
+                0.00    0.00       1/1           std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::operator[](unsigned long) const [204]
+                0.00    0.00       1/1           Halide::Buffer<int>::Buffer<void>(Halide::Buffer<void> const&) [180]
+                0.00    0.00       1/3           Halide::Buffer<int>::~Buffer() [138]
+                0.00    0.00       1/2           Halide::Buffer<int>::Buffer<int>(Halide::Buffer<int>&&) [156]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[195]    0.0    0.00    0.00       1         std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [195]
+                0.00    0.00       2/2           Halide::Var& std::forward<Halide::Var&>(std::remove_reference<Halide::Var&>::type&) [171]
+                0.00    0.00       2/6           Halide::Var::Var(Halide::Var const&) [112]
+                0.00    0.00       2/10          Halide::Var::~Var() [89]
+                0.00    0.00       2/3           std::vector<Halide::Var, std::allocator<Halide::Var> >::~vector() [154]
+                0.00    0.00       1/1           std::allocator<Halide::Var>::allocator() [205]
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::initializer_list<Halide::Var>, std::allocator<Halide::Var> const&) [216]
+                0.00    0.00       1/6           std::allocator<Halide::Var>::~allocator() [118]
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+-----------------------------------------------
+                0.00    0.00       1/1           void Halide::Buffer<int>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [179]
+[196]    0.0    0.00    0.00       1         Halide::Buffer<void>::get() const [196]
+                0.00    0.00       1/3           Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator->() const [145]
+-----------------------------------------------
+                0.00    0.00       1/1           bool Halide::Runtime::Buffer<int, 4>::can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [183]
+[197]    0.0    0.00    0.00       1         Halide::Runtime::Buffer<void, 4>::type() const [197]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+[198]    0.0    0.00    0.00       1         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator() const [198]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::initializer_list<Halide::Var>, std::allocator<Halide::Var> const&) [216]
+[199]    0.0    0.00    0.00       1         std::initializer_list<Halide::Var>::end() const [199]
+                0.00    0.00       1/2           std::initializer_list<Halide::Var>::begin() const [167]
+                0.00    0.00       1/1           std::initializer_list<Halide::Var>::size() const [200]
+-----------------------------------------------
+                0.00    0.00       1/1           std::initializer_list<Halide::Var>::end() const [199]
+[200]    0.0    0.00    0.00       1         std::initializer_list<Halide::Var>::size() const [200]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+[201]    0.0    0.00    0.00       1         std::vector<Halide::Var, std::allocator<Halide::Var> >::end() const [201]
+                0.00    0.00       1/2           __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::__normal_iterator(Halide::Var const* const&) [161]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+[202]    0.0    0.00    0.00       1         std::vector<Halide::Var, std::allocator<Halide::Var> >::size() const [202]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+[203]    0.0    0.00    0.00       1         std::vector<Halide::Var, std::allocator<Halide::Var> >::begin() const [203]
+                0.00    0.00       1/2           __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::__normal_iterator(Halide::Var const* const&) [161]
+-----------------------------------------------
+                0.00    0.00       1/1           _ZNK6Halide11RealizationcvNS_6BufferIT_EEIiEEv [194]
+[204]    0.0    0.00    0.00       1         std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::operator[](unsigned long) const [204]
+-----------------------------------------------
+                0.00    0.00       1/1           std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [195]
+[205]    0.0    0.00    0.00       1         std::allocator<Halide::Var>::allocator() [205]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<Halide::Var>::new_allocator() [142]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_Rb_tree_impl() [223]
+[206]    0.0    0.00    0.00       1         std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::allocator() [206]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::new_allocator() [191]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::~_Rb_tree_impl() [224]
+[207]    0.0    0.00    0.00       1         std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~allocator() [207]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~new_allocator() [192]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+[208]    0.0    0.00    0.00       1         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(unsigned long, std::allocator<Halide::Var> const&) [208]
+                0.00    0.00       2/3           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::_Vector_impl(std::allocator<Halide::Var> const&) [149]
+                0.00    0.00       2/2           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_create_storage(unsigned long) [168]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::initializer_list<Halide::Var>, std::allocator<Halide::Var> const&) [216]
+[209]    0.0    0.00    0.00       1         std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(std::allocator<Halide::Var> const&) [209]
+                0.00    0.00       1/3           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::_Vector_impl(std::allocator<Halide::Var> const&) [149]
+-----------------------------------------------
+                0.00    0.00       1/1           __gnu_cxx::__alloc_traits<std::allocator<Halide::Var> >::_S_select_on_copy(std::allocator<Halide::Var> const&) [193]
+[210]    0.0    0.00    0.00       1         std::allocator_traits<std::allocator<Halide::Var> >::select_on_container_copy_construction(std::allocator<Halide::Var> const&) [210]
+                0.00    0.00       1/4           std::allocator<Halide::Var>::allocator(std::allocator<Halide::Var> const&) [128]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::Var* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [230]
+[211]    0.0    0.00    0.00       1         Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [211]
+                0.00    0.00       3/3           bool __gnu_cxx::operator!=<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&) [144]
+                0.00    0.00       2/2           __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::operator*() const [166]
+                0.00    0.00       2/10          Halide::Var* std::__addressof<Halide::Var>(Halide::Var&) [91]
+                0.00    0.00       2/2           __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::operator++() [162]
+                0.00    0.00       2/4           void std::_Construct<Halide::Var, Halide::Var const&>(Halide::Var*, Halide::Var const&) [133]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::Var* std::uninitialized_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*) [231]
+[212]    0.0    0.00    0.00       1         Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*) [212]
+                0.00    0.00       2/10          Halide::Var* std::__addressof<Halide::Var>(Halide::Var&) [91]
+                0.00    0.00       2/4           void std::_Construct<Halide::Var, Halide::Var const&>(Halide::Var*, Halide::Var const&) [133]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::ParamMap::ParamMap() [189]
+[213]    0.0    0.00    0.00       1         std::map<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::map() [213]
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree() [227]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::ParamMap::~ParamMap() [250]
+[214]    0.0    0.00    0.00       1         std::map<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~map() [214]
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~_Rb_tree() [228]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::initializer_list<Halide::Var>, std::allocator<Halide::Var> const&) [216]
+[215]    0.0    0.00    0.00       1         void std::vector<Halide::Var, std::allocator<Halide::Var> >::_M_range_initialize<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::forward_iterator_tag) [215]
+                0.00    0.00       1/1           std::iterator_traits<Halide::Var const*>::difference_type std::distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*) [235]
+                0.00    0.00       1/3           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_allocate(unsigned long) [148]
+                0.00    0.00       1/6           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator() [119]
+                0.00    0.00       1/1           Halide::Var* std::__uninitialized_copy_a<Halide::Var const*, Halide::Var*, Halide::Var>(Halide::Var const*, Halide::Var const*, Halide::Var*, std::allocator<Halide::Var>&) [234]
+-----------------------------------------------
+                0.00    0.00       1/1           std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [195]
+[216]    0.0    0.00    0.00       1         std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::initializer_list<Halide::Var>, std::allocator<Halide::Var> const&) [216]
+                0.00    0.00       1/1           std::initializer_list<Halide::Var>::end() const [199]
+                0.00    0.00       1/1           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(std::allocator<Halide::Var> const&) [209]
+                0.00    0.00       1/2           std::initializer_list<Halide::Var>::begin() const [167]
+                0.00    0.00       1/1           void std::vector<Halide::Var, std::allocator<Halide::Var> >::_M_range_initialize<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::forward_iterator_tag) [215]
+-----------------------------------------------
+                0.00    0.00       1/1           std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [195]
+[217]    0.0    0.00    0.00       1         std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+                0.00    0.00       1/1           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator() const [198]
+                0.00    0.00       1/1           __gnu_cxx::__alloc_traits<std::allocator<Halide::Var> >::_S_select_on_copy(std::allocator<Halide::Var> const&) [193]
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::size() const [202]
+                0.00    0.00       1/1           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(unsigned long, std::allocator<Halide::Var> const&) [208]
+                0.00    0.00       1/6           std::allocator<Halide::Var>::~allocator() [118]
+                0.00    0.00       1/6           std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator() [119]
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::end() const [201]
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::begin() const [203]
+                0.00    0.00       1/1           Halide::Var* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, Halide::Var>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, std::allocator<Halide::Var>&) [233]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::FuncRef::~FuncRef() [182]
+[218]    0.0    0.00    0.00       1         std::vector<Halide::Expr, std::allocator<Halide::Expr> >::~vector() [218]
+                0.00    0.00    4718/4718        std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_M_get_Tp_allocator() [30]
+                0.00    0.00    4718/4718        std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::~_Vector_base() [31]
+                0.00    0.00    4718/4718        void std::_Destroy<Halide::Expr*, Halide::Expr>(Halide::Expr*, Halide::Expr*, std::allocator<Halide::Expr>&) [32]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::Realization::~Realization() [176]
+[219]    0.0    0.00    0.00       1         std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~vector() [219]
+                0.00    0.00       7/7           std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_M_get_Tp_allocator() [103]
+                0.00    0.00       7/7           void std::_Destroy<Halide::Buffer<void>*, Halide::Buffer<void> >(Halide::Buffer<void>*, Halide::Buffer<void>*, std::allocator<Halide::Buffer<void> >&) [109]
+                0.00    0.00       7/7           std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~_Vector_base() [104]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[220]    0.0    0.00    0.00       1         std::vector<Halide::Argument, std::allocator<Halide::Argument> >::vector() [220]
+                0.00    0.00       3/3           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_base() [151]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[221]    0.0    0.00    0.00       1         std::vector<Halide::Argument, std::allocator<Halide::Argument> >::~vector() [221]
+                0.00    0.00       7/7           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_M_get_Tp_allocator() [107]
+                0.00    0.00       7/7           void std::_Destroy<Halide::Argument*, Halide::Argument>(Halide::Argument*, Halide::Argument*, std::allocator<Halide::Argument>&) [110]
+                0.00    0.00       7/7           std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::~_Vector_base() [108]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_Rb_tree_impl() [223]
+[222]    0.0    0.00    0.00       1         std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_M_initialize() [222]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree() [227]
+[223]    0.0    0.00    0.00       1         std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_Rb_tree_impl() [223]
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::allocator() [206]
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_M_initialize() [222]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~_Rb_tree() [228]
+[224]    0.0    0.00    0.00       1         std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::~_Rb_tree_impl() [224]
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~allocator() [207]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~_Rb_tree() [228]
+[225]    0.0    0.00    0.00       1         std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_M_begin() [225]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~_Rb_tree() [228]
+[226]    0.0    0.00    0.00       1         std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_M_erase(std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >*) [226]
+-----------------------------------------------
+                0.00    0.00       1/1           std::map<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::map() [213]
+[227]    0.0    0.00    0.00       1         std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree() [227]
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_Rb_tree_impl() [223]
+-----------------------------------------------
+                0.00    0.00       1/1           std::map<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~map() [214]
+[228]    0.0    0.00    0.00       1         std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~_Rb_tree() [228]
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_M_begin() [225]
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_M_erase(std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >*) [226]
+                0.00    0.00       1/1           std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::~_Rb_tree_impl() [224]
+-----------------------------------------------
+                0.00    0.00       1/1           std::iterator_traits<Halide::Var const*>::difference_type std::distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*) [235]
+[229]    0.0    0.00    0.00       1         std::iterator_traits<Halide::Var const*>::difference_type std::__distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::random_access_iterator_tag) [229]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::Var* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, Halide::Var>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, std::allocator<Halide::Var>&) [233]
+[230]    0.0    0.00    0.00       1         Halide::Var* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [230]
+                0.00    0.00       1/1           Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [211]
+-----------------------------------------------
+                0.00    0.00       1/1           Halide::Var* std::__uninitialized_copy_a<Halide::Var const*, Halide::Var*, Halide::Var>(Halide::Var const*, Halide::Var const*, Halide::Var*, std::allocator<Halide::Var>&) [234]
+[231]    0.0    0.00    0.00       1         Halide::Var* std::uninitialized_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*) [231]
+                0.00    0.00       1/1           Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*) [212]
+-----------------------------------------------
+                0.00    0.00       1/1           std::iterator_traits<Halide::Var const*>::difference_type std::distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*) [235]
+[232]    0.0    0.00    0.00       1         std::iterator_traits<Halide::Var const*>::iterator_category std::__iterator_category<Halide::Var const*>(Halide::Var const* const&) [232]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&) [217]
+[233]    0.0    0.00    0.00       1         Halide::Var* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, Halide::Var>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, std::allocator<Halide::Var>&) [233]
+                0.00    0.00       1/1           Halide::Var* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*) [230]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<Halide::Var, std::allocator<Halide::Var> >::_M_range_initialize<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::forward_iterator_tag) [215]
+[234]    0.0    0.00    0.00       1         Halide::Var* std::__uninitialized_copy_a<Halide::Var const*, Halide::Var*, Halide::Var>(Halide::Var const*, Halide::Var const*, Halide::Var*, std::allocator<Halide::Var>&) [234]
+                0.00    0.00       1/1           Halide::Var* std::uninitialized_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*) [231]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::vector<Halide::Var, std::allocator<Halide::Var> >::_M_range_initialize<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::forward_iterator_tag) [215]
+[235]    0.0    0.00    0.00       1         std::iterator_traits<Halide::Var const*>::difference_type std::distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*) [235]
+                0.00    0.00       1/1           std::iterator_traits<Halide::Var const*>::iterator_category std::__iterator_category<Halide::Var const*>(Halide::Var const* const&) [232]
+                0.00    0.00       1/1           std::iterator_traits<Halide::Var const*>::difference_type std::__distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::random_access_iterator_tag) [229]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [173] _GLOBAL__sub_I_main    [33] __gnu_cxx::new_allocator<Halide::Expr>::deallocate(Halide::Expr*, unsigned long) [107] std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_M_get_Tp_allocator()
+ [174] __static_initialization_and_destruction_0(int, int) [18] __gnu_cxx::new_allocator<Halide::Expr>::~new_allocator() [151] std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_base()
+ [175] HalideIntrospectionCanary::(anonymous namespace)::TestCompilationUnit::TestCompilationUnit() [160] __gnu_cxx::new_allocator<Halide::Buffer<void> >::deallocate(Halide::Buffer<void>*, unsigned long) [108] std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::~_Vector_base()
+ [176] Halide::Realization::~Realization() [93] __gnu_cxx::new_allocator<Halide::Buffer<void> >::~new_allocator() [12] std::__atomic_base<int>::operator--()
+  [79] Halide::ArgumentEstimates::MinAndExtent::~MinAndExtent() [123] __gnu_cxx::new_allocator<Halide::Argument>::deallocate(Halide::Argument*, unsigned long) [11] std::__atomic_base<int>::operator++()
+  [78] Halide::ArgumentEstimates::~ArgumentEstimates() [143] __gnu_cxx::new_allocator<Halide::Argument>::new_allocator() [88] std::allocator_traits<std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::deallocate(std::allocator<Halide::ArgumentEstimates::MinAndExtent>&, Halide::ArgumentEstimates::MinAndExtent*, unsigned long)
+ [111] Halide::Int(int, int)  [87] __gnu_cxx::new_allocator<Halide::Argument>::~new_allocator() [152] std::allocator_traits<std::allocator<Halide::Var> >::deallocate(std::allocator<Halide::Var>&, Halide::Var*, unsigned long)
+ [112] Halide::Var::Var(Halide::Var const&) [191] __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::new_allocator() [210] std::allocator_traits<std::allocator<Halide::Var> >::select_on_container_copy_construction(std::allocator<Halide::Var> const&)
+  [89] Halide::Var::~Var()   [192] __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~new_allocator() [153] std::allocator_traits<std::allocator<Halide::Var> >::allocate(std::allocator<Halide::Var>&, unsigned long)
+  [51] Halide::Expr::Expr(Halide::Expr&&) [193] __gnu_cxx::__alloc_traits<std::allocator<Halide::Var> >::_S_select_on_copy(std::allocator<Halide::Var> const&) [34] std::allocator_traits<std::allocator<Halide::Expr> >::deallocate(std::allocator<Halide::Expr>&, Halide::Expr*, unsigned long)
+  [15] Halide::Expr::~Expr()  [20] bool __gnu_cxx::__is_null_pointer<char>(char*) [169] std::allocator_traits<std::allocator<Halide::Buffer<void> > >::deallocate(std::allocator<Halide::Buffer<void> >&, Halide::Buffer<void>*, unsigned long)
+ [177] Halide::Func::~Func() [161] __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::__normal_iterator(Halide::Var const* const&) [124] std::allocator_traits<std::allocator<Halide::Argument> >::deallocate(std::allocator<Halide::Argument>&, Halide::Argument*, unsigned long)
+  [43] Halide::Type::Type(halide_type_code_t, int, int, halide_handle_cplusplus_type const*) [162] __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::operator++() [211] Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*)
+ [178] Halide::Stage::~Stage() [144] bool __gnu_cxx::operator!=<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > > const&) [212] Halide::Var* std::__uninitialized_copy<false>::__uninit_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*)
+ [155] void Halide::Buffer<int>::assert_can_convert_from<int>(Halide::Buffer<int> const&) [194] _ZNK6Halide11RealizationcvNS_6BufferIT_EEIiEEv [213] std::map<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::map()
+ [179] void Halide::Buffer<int>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [116] Halide::Var::name[abi:cxx11]() const [214] std::map<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~map()
+ [156] Halide::Buffer<int>::Buffer<int>(Halide::Buffer<int>&&) [163] Halide::Var::operator Halide::Expr() const [85] std::bitset<60ul>::bitset()
+ [180] Halide::Buffer<int>::Buffer<void>(Halide::Buffer<void> const&) [195] std::enable_if<Halide::Internal::all_are_convertible<Halide::Var<Halide::Var&, Halide::Var&> >::value, Halide::FuncRef>::type Halide::Func::operator()<Halide::Var&, Halide::Var&>(Halide::Var&, Halide::Var&) const [77] std::vector<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~vector()
+ [138] Halide::Buffer<int>::~Buffer() [164] Halide::Buffer<int>::get() const [215] void std::vector<Halide::Var, std::allocator<Halide::Var> >::_M_range_initialize<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::forward_iterator_tag)
+  [50] void Halide::Buffer<void>::assert_can_convert_from<void>(Halide::Buffer<void> const&) [165] Halide::Buffer<int>::defined() const [216] std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::initializer_list<Halide::Var>, std::allocator<Halide::Var> const&)
+  [57] Halide::Buffer<void>::Buffer() [196] Halide::Buffer<void>::get() const [217] std::vector<Halide::Var, std::allocator<Halide::Var> >::vector(std::vector<Halide::Var, std::allocator<Halide::Var> > const&)
+  [58] Halide::Buffer<void>::Buffer<void>(Halide::Buffer<void>&&) [49] Halide::Buffer<void>::defined() const [154] std::vector<Halide::Var, std::allocator<Halide::Var> >::~vector()
+  [45] Halide::Buffer<void>::~Buffer() [197] Halide::Runtime::Buffer<void, 4>::type() const [218] std::vector<Halide::Expr, std::allocator<Halide::Expr> >::~vector()
+ [181] Halide::Target::Target() [145] Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator->() const [219] std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~vector()
+ [182] Halide::FuncRef::~FuncRef() [146] __gnu_cxx::new_allocator<Halide::Var>::max_size() const [220] std::vector<Halide::Argument, std::allocator<Halide::Argument> >::vector()
+ [157] bool Halide::Runtime::Buffer<int, 4>::can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&) [117] __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::base() const [221] std::vector<Halide::Argument, std::allocator<Halide::Argument> >::~vector()
+ [183] bool Halide::Runtime::Buffer<int, 4>::can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [166] __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >::operator*() const [53] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*)
+ [184] Halide::Runtime::Buffer<int, 4>::static_halide_type() [198] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator() const [54] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+ [158] void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<int, 4>(Halide::Runtime::Buffer<int, 4> const&) [199] std::initializer_list<Halide::Var>::end() const [55] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type)
+ [185] void Halide::Runtime::Buffer<int, 4>::assert_can_convert_from<void, 4>(Halide::Runtime::Buffer<void, 4> const&) [200] std::initializer_list<Halide::Var>::size() const [56] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&)
+ [125] void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<int, 4>() [167] std::initializer_list<Halide::Var>::begin() const [222] std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_M_initialize()
+ [159] void Halide::Runtime::Buffer<int, 4>::static_assert_can_convert_from<void, 4>() [201] std::vector<Halide::Var, std::allocator<Halide::Var> >::end() const [223] std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::_Rb_tree_impl()
+ [113] Halide::Argument::~Argument() [202] std::vector<Halide::Var, std::allocator<Halide::Var> >::size() const [224] std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree_impl<std::less<Halide::Internal::Parameter const>, true>::~_Rb_tree_impl()
+ [186] Halide::Internal::Definition::~Definition() [203] std::vector<Halide::Var, std::allocator<Halide::Var> >::begin() const [225] std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_M_begin()
+  [66] Halide::Internal::FunctionPtr::~FunctionPtr() [204] std::vector<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::operator[](unsigned long) const [226] std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_M_erase(std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >*)
+   [8] Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::decref(Halide::Internal::IRNode const*) [71] std::allocator<Halide::ArgumentEstimates::MinAndExtent>::~allocator() [227] std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::_Rb_tree()
+   [9] Halide::Internal::IntrusivePtr<Halide::Internal::IRNode const>::~IntrusivePtr() [128] std::allocator<Halide::Var>::allocator(std::allocator<Halide::Var> const&) [228] std::_Rb_tree<Halide::Internal::Parameter const, std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg>, std::_Select1st<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> >, std::less<Halide::Internal::Parameter const>, std::allocator<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~_Rb_tree()
+  [64] Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::decref(Halide::Internal::FunctionGroup*) [205] std::allocator<Halide::Var>::allocator() [133] void std::_Construct<Halide::Var, Halide::Var const&>(Halide::Var*, Halide::Var const&)
+  [65] Halide::Internal::IntrusivePtr<Halide::Internal::FunctionGroup>::~IntrusivePtr() [118] std::allocator<Halide::Var>::~allocator() [229] std::iterator_traits<Halide::Var const*>::difference_type std::__distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*, std::random_access_iterator_tag)
+  [35] Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::decref(Halide::Internal::BufferContents*) [27] std::allocator<Halide::Expr>::~allocator() [21] std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag)
+ [187] Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::incref(Halide::Internal::BufferContents*) [99] std::allocator<Halide::Buffer<void> >::~allocator() [80] Halide::ArgumentEstimates::MinAndExtent* std::__addressof<Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent&)
+  [36] Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::~IntrusivePtr() [147] std::allocator<Halide::Argument>::allocator() [91] Halide::Var* std::__addressof<Halide::Var>(Halide::Var&)
+  [46] Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>::operator=(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&&) [100] std::allocator<Halide::Argument>::~allocator() [16] Halide::Expr* std::__addressof<Halide::Expr>(Halide::Expr&)
+  [37] Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::decref(Halide::Internal::ParameterContents*) [206] std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::allocator() [170] Halide::Buffer<void>* std::__addressof<Halide::Buffer<void> >(Halide::Buffer<void>&)
+  [38] Halide::Internal::IntrusivePtr<Halide::Internal::ParameterContents>::~IntrusivePtr() [207] std::allocator<std::_Rb_tree_node<std::pair<Halide::Internal::Parameter const, Halide::ParamMap::ParamArg> > >::~allocator() [120] Halide::Argument* std::__addressof<Halide::Argument>(Halide::Argument&)
+  [82] Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::decref(Halide::Internal::DefinitionContents*) [44] std::char_traits<char>::compare(char const*, char const*, unsigned long) [230] Halide::Var* std::uninitialized_copy<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*)
+  [84] Halide::Internal::IntrusivePtr<Halide::Internal::DefinitionContents>::~IntrusivePtr() [83] std::_Base_bitset<1ul>::_Base_bitset() [231] Halide::Var* std::uninitialized_copy<Halide::Var const*, Halide::Var*>(Halide::Var const*, Halide::Var const*, Halide::Var*)
+  [39] Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::decref(Halide::Internal::ReductionDomainContents*) [69] void std::_Destroy_aux<false>::__destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*) [232] std::iterator_traits<Halide::Var const*>::iterator_category std::__iterator_category<Halide::Var const*>(Halide::Var const* const&)
+  [41] Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::incref(Halide::Internal::ReductionDomainContents*) [129] void std::_Destroy_aux<false>::__destroy<Halide::Var*>(Halide::Var*, Halide::Var*) [22] std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&)
+  [40] Halide::Internal::IntrusivePtr<Halide::Internal::ReductionDomainContents>::~IntrusivePtr() [25] void std::_Destroy_aux<false>::__destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*) [233] Halide::Var* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, Halide::Var>(__gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, __gnu_cxx::__normal_iterator<Halide::Var const*, std::vector<Halide::Var, std::allocator<Halide::Var> > >, Halide::Var*, std::allocator<Halide::Var>&)
+  [96] Halide::Internal::IntrusivePtr<Halide::PipelineContents>::decref(Halide::PipelineContents*) [94] void std::_Destroy_aux<false>::__destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*) [234] Halide::Var* std::__uninitialized_copy_a<Halide::Var const*, Halide::Var*, Halide::Var>(Halide::Var const*, Halide::Var const*, Halide::Var*, std::allocator<Halide::Var>&)
+  [97] Halide::Internal::IntrusivePtr<Halide::PipelineContents>::~IntrusivePtr() [90] void std::_Destroy_aux<false>::__destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*) [52] std::remove_reference<Halide::Expr&>::type&& std::move<Halide::Expr&>(Halide::Expr&)
+  [59] Halide::Internal::ReductionDomain::ReductionDomain() [72] std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_Vector_impl::~_Vector_impl() [47] std::remove_reference<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>::type&& std::move<Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&>(Halide::Internal::IntrusivePtr<Halide::Internal::BufferContents>&)
+  [60] Halide::Internal::ReductionDomain::~ReductionDomain() [73] std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_M_deallocate(Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [67] std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+  [24] void Halide::Internal::destroy<Halide::Internal::IRNode>(Halide::Internal::IRNode const*) [74] std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::_M_get_Tp_allocator() [42] std::remove_reference<Halide::Internal::BufferContents*&>::type&& std::move<Halide::Internal::BufferContents*&>(Halide::Internal::BufferContents*&)
+ [114] Halide::Internal::Function::~Function() [75] std::_Vector_base<Halide::ArgumentEstimates::MinAndExtent, std::allocator<Halide::ArgumentEstimates::MinAndExtent> >::~_Vector_base() [48] void std::swap<Halide::Internal::BufferContents*>(Halide::Internal::BufferContents*&, Halide::Internal::BufferContents*&)
+  [19] Halide::Internal::IRHandle::IRHandle(Halide::Internal::IRHandle&&) [148] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_allocate(unsigned long) [134] Halide::Var const& std::forward<Halide::Var const&>(std::remove_reference<Halide::Var const&>::type&)
+  [10] Halide::Internal::IRHandle::~IRHandle() [149] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::_Vector_impl(std::allocator<Halide::Var> const&) [171] Halide::Var& std::forward<Halide::Var&>(std::remove_reference<Halide::Var&>::type&)
+  [13] Halide::Internal::RefCount::decrement() [130] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_impl::~_Vector_impl() [81] void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*)
+ [139] Halide::Internal::RefCount::increment() [131] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_deallocate(Halide::Var*, unsigned long) [121] void std::_Destroy<Halide::Var>(Halide::Var*)
+ [115] Halide::Internal::Variable::make(Halide::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [168] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_create_storage(unsigned long) [17] void std::_Destroy<Halide::Expr>(Halide::Expr*)
+  [61] Halide::Internal::Parameter::Parameter() [119] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_M_get_Tp_allocator() [172] void std::_Destroy<Halide::Buffer<void> >(Halide::Buffer<void>*)
+  [62] Halide::Internal::Parameter::~Parameter() [208] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(unsigned long, std::allocator<Halide::Var> const&) [122] void std::_Destroy<Halide::Argument>(Halide::Argument*)
+  [14] Halide::Internal::RefCount& Halide::Internal::ref_count<Halide::Internal::IRNode>(Halide::Internal::IRNode const*) [209] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::_Vector_base(std::allocator<Halide::Var> const&) [70] void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*)
+ [188] Halide::ParamMap::empty_map() [132] std::_Vector_base<Halide::Var, std::allocator<Halide::Var> >::~_Vector_base() [76] void std::_Destroy<Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent>(Halide::ArgumentEstimates::MinAndExtent*, Halide::ArgumentEstimates::MinAndExtent*, std::allocator<Halide::ArgumentEstimates::MinAndExtent>&)
+ [189] Halide::ParamMap::ParamMap() [28] std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_Vector_impl::~_Vector_impl() [135] void std::_Destroy<Halide::Var*>(Halide::Var*, Halide::Var*)
+ [126] Halide::Pipeline::~Pipeline() [29] std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_M_deallocate(Halide::Expr*, unsigned long) [136] void std::_Destroy<Halide::Var*, Halide::Var>(Halide::Var*, Halide::Var*, std::allocator<Halide::Var>&)
+ [190] Halide::operator+(Halide::Expr, Halide::Expr) [30] std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::_M_get_Tp_allocator() [26] void std::_Destroy<Halide::Expr*>(Halide::Expr*, Halide::Expr*)
+  [63] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [31] std::_Vector_base<Halide::Expr, std::allocator<Halide::Expr> >::~_Vector_base() [32] void std::_Destroy<Halide::Expr*, Halide::Expr>(Halide::Expr*, Halide::Expr*, std::allocator<Halide::Expr>&)
+  [86] __gnu_cxx::new_allocator<Halide::ArgumentEstimates::MinAndExtent>::deallocate(Halide::ArgumentEstimates::MinAndExtent*, unsigned long) [101] std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_Vector_impl::~_Vector_impl() [95] void std::_Destroy<Halide::Buffer<void>*>(Halide::Buffer<void>*, Halide::Buffer<void>*)
+  [68] __gnu_cxx::new_allocator<Halide::ArgumentEstimates::MinAndExtent>::~new_allocator() [102] std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_M_deallocate(Halide::Buffer<void>*, unsigned long) [109] void std::_Destroy<Halide::Buffer<void>*, Halide::Buffer<void> >(Halide::Buffer<void>*, Halide::Buffer<void>*, std::allocator<Halide::Buffer<void> >&)
+ [140] __gnu_cxx::new_allocator<Halide::Var>::deallocate(Halide::Var*, unsigned long) [103] std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::_M_get_Tp_allocator() [92] void std::_Destroy<Halide::Argument*>(Halide::Argument*, Halide::Argument*)
+ [141] __gnu_cxx::new_allocator<Halide::Var>::allocate(unsigned long, void const*) [104] std::_Vector_base<Halide::Buffer<void>, std::allocator<Halide::Buffer<void> > >::~_Vector_base() [110] void std::_Destroy<Halide::Argument*, Halide::Argument>(Halide::Argument*, Halide::Argument*, std::allocator<Halide::Argument>&)
+ [127] __gnu_cxx::new_allocator<Halide::Var>::new_allocator(__gnu_cxx::new_allocator<Halide::Var> const&) [150] std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::_Vector_impl() [235] std::iterator_traits<Halide::Var const*>::difference_type std::distance<Halide::Var const*>(Halide::Var const*, Halide::Var const*)
+ [142] __gnu_cxx::new_allocator<Halide::Var>::new_allocator() [105] std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_Vector_impl::~_Vector_impl() [23] std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*)
+  [98] __gnu_cxx::new_allocator<Halide::Var>::~new_allocator() [106] std::_Vector_base<Halide::Argument, std::allocator<Halide::Argument> >::_M_deallocate(Halide::Argument*, unsigned long) [137] operator new(unsigned long, void*)
