@@ -6,8 +6,8 @@ https://github.com/halide/Halide
 Linux x86-64
 # How to run?
 1. install llvm && Halide 
-2.rewrite the cpp files
-3.change the link director
+2. rewrite the cpp files
+3. change the link director
 4. ./run.sh
 
 
