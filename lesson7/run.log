@@ -1,0 +1,438 @@
+Begin pipeline consumer_default.0()
+Tag consumer_default.0() tag = "func_type_and_dim: 1 2 32 1 2 0 4 0 4"
+Store consumer_default.0(0, 0) = 0.210368
+Store consumer_default.0(1, 0) = 0.437692
+Store consumer_default.0(2, 0) = 0.262604
+Store consumer_default.0(3, 0) = -0.153921
+Store consumer_default.0(0, 1) = 0.437692
+Store consumer_default.0(1, 1) = 0.475816
+Store consumer_default.0(2, 1) = 0.003550
+Store consumer_default.0(3, 1) = 0.023565
+Store consumer_default.0(0, 2) = 0.262604
+Store consumer_default.0(1, 2) = 0.003550
+Store consumer_default.0(2, 2) = -0.225879
+Store consumer_default.0(3, 2) = 0.146372
+Store consumer_default.0(0, 3) = -0.153921
+Store consumer_default.0(1, 3) = 0.023565
+Store consumer_default.0(2, 3) = 0.146372
+Store consumer_default.0(3, 3) = -0.237233
+End pipeline consumer_default.0()
+
+Evaluating producer-consumer pipeline with default schedule
+ x=0		y=0		result=0.210368
+ x=1		y=0		result=0.437692
+ x=2		y=0		result=0.262604
+ x=0		y=1		result=0.437692
+ x=1		y=1		result=0.475816
+ x=2		y=1		result=0.003550
+ x=0		y=2		result=0.262604
+ x=1		y=2		result=0.003550
+ x=2		y=2		result=-0.225879
+
+Pseudo-code for the schedule:
+Begin pipeline consumer_root.0()
+Tag producer_root.0() tag = "func_type_and_dim: 1 2 32 1 2 0 5 0 5"
+Tag consumer_root.0() tag = "func_type_and_dim: 1 2 32 1 2 0 4 0 4"
+Store producer_root.0(0, 0) = 0.000000
+Store producer_root.0(1, 0) = 0.000000
+Store producer_root.0(2, 0) = 0.000000
+Store producer_root.0(3, 0) = 0.000000
+Store producer_root.0(4, 0) = 0.000000
+Store producer_root.0(0, 1) = 0.000000
+Store producer_root.0(1, 1) = 0.841471
+Store producer_root.0(2, 1) = 0.909297
+Store producer_root.0(3, 1) = 0.141120
+Store producer_root.0(4, 1) = -0.756802
+Store producer_root.0(0, 2) = 0.000000
+Store producer_root.0(1, 2) = 0.909297
+Store producer_root.0(2, 2) = -0.756802
+Store producer_root.0(3, 2) = -0.279415
+Store producer_root.0(4, 2) = 0.989358
+Store producer_root.0(0, 3) = 0.000000
+Store producer_root.0(1, 3) = 0.141120
+Store producer_root.0(2, 3) = -0.279415
+Store producer_root.0(3, 3) = 0.412118
+Store producer_root.0(4, 3) = -0.536573
+Store producer_root.0(0, 4) = 0.000000
+Store producer_root.0(1, 4) = -0.756802
+Store producer_root.0(2, 4) = 0.989358
+Store producer_root.0(3, 4) = -0.536573
+Store producer_root.0(4, 4) = -0.287903
+Store consumer_root.0(0, 0) = 0.210368
+Store consumer_root.0(1, 0) = 0.437692
+Store consumer_root.0(2, 0) = 0.262604
+Store consumer_root.0(3, 0) = -0.153921
+Store consumer_root.0(0, 1) = 0.437692
+Store consumer_root.0(1, 1) = 0.475816
+Store consumer_root.0(2, 1) = 0.003550
+Store consumer_root.0(3, 1) = 0.023565
+Store consumer_root.0(0, 2) = 0.262604
+Store consumer_root.0(1, 2) = 0.003550
+Store consumer_root.0(2, 2) = -0.225879
+Store consumer_root.0(3, 2) = 0.146372
+Store consumer_root.0(0, 3) = -0.153921
+Store consumer_root.0(1, 3) = 0.023565
+Store consumer_root.0(2, 3) = 0.146372
+Store consumer_root.0(3, 3) = -0.237233
+End pipeline consumer_root.0()
+
+
+Evaluating producer.compute_root()
+Consumer:
+x=0		y=0		result=0.210368
+x=1		y=0		result=0.437692
+x=2		y=0		result=0.262604
+x=3		y=0		result=-0.153921
+x=0		y=1		result=0.437692
+x=1		y=1		result=0.475816
+x=2		y=1		result=0.003550
+x=3		y=1		result=0.023565
+x=0		y=2		result=0.262604
+x=1		y=2		result=0.003550
+x=2		y=2		result=-0.225879
+x=3		y=2		result=0.146372
+x=0		y=3		result=-0.153921
+x=1		y=3		result=0.023565
+x=2		y=3		result=0.146372
+x=3		y=3		result=-0.237233
+Pseudo-code for the schedule:
+Begin pipeline consumer_y.0()
+Tag producer_y.0() tag = "func_type_and_dim: 1 2 32 1 2 0 5 0 5"
+Tag consumer_y.0() tag = "func_type_and_dim: 1 2 32 1 2 0 4 0 4"
+Store producer_y.0(0, 0) = 0.000000
+Store producer_y.0(1, 0) = 0.000000
+Store producer_y.0(2, 0) = 0.000000
+Store producer_y.0(3, 0) = 0.000000
+Store producer_y.0(4, 0) = 0.000000
+Store producer_y.0(0, 1) = 0.000000
+Store producer_y.0(1, 1) = 0.841471
+Store producer_y.0(2, 1) = 0.909297
+Store producer_y.0(3, 1) = 0.141120
+Store producer_y.0(4, 1) = -0.756802
+Store consumer_y.0(0, 0) = 0.210368
+Store consumer_y.0(1, 0) = 0.437692
+Store consumer_y.0(2, 0) = 0.262604
+Store consumer_y.0(3, 0) = -0.153921
+Store producer_y.0(0, 1) = 0.000000
+Store producer_y.0(1, 1) = 0.841471
+Store producer_y.0(2, 1) = 0.909297
+Store producer_y.0(3, 1) = 0.141120
+Store producer_y.0(4, 1) = -0.756802
+Store producer_y.0(0, 2) = 0.000000
+Store producer_y.0(1, 2) = 0.909297
+Store producer_y.0(2, 2) = -0.756802
+Store producer_y.0(3, 2) = -0.279415
+Store producer_y.0(4, 2) = 0.989358
+Store consumer_y.0(0, 1) = 0.437692
+Store consumer_y.0(1, 1) = 0.475816
+Store consumer_y.0(2, 1) = 0.003550
+Store consumer_y.0(3, 1) = 0.023565
+Store producer_y.0(0, 2) = 0.000000
+Store producer_y.0(1, 2) = 0.909297
+Store producer_y.0(2, 2) = -0.756802
+Store producer_y.0(3, 2) = -0.279415
+Store producer_y.0(4, 2) = 0.989358
+Store producer_y.0(0, 3) = 0.000000
+Store producer_y.0(1, 3) = 0.141120
+Store producer_y.0(2, 3) = -0.279415
+Store producer_y.0(3, 3) = 0.412118
+Store producer_y.0(4, 3) = -0.536573
+Store consumer_y.0(0, 2) = 0.262604
+Store consumer_y.0(1, 2) = 0.003550
+Store consumer_y.0(2, 2) = -0.225879
+Store consumer_y.0(3, 2) = 0.146372
+Store producer_y.0(0, 3) = 0.000000
+Store producer_y.0(1, 3) = 0.141120
+Store producer_y.0(2, 3) = -0.279415
+Store producer_y.0(3, 3) = 0.412118
+Store producer_y.0(4, 3) = -0.536573
+Store producer_y.0(0, 4) = 0.000000
+Store producer_y.0(1, 4) = -0.756802
+Store producer_y.0(2, 4) = 0.989358
+Store producer_y.0(3, 4) = -0.536573
+Store producer_y.0(4, 4) = -0.287903
+Store consumer_y.0(0, 3) = -0.153921
+Store consumer_y.0(1, 3) = 0.023565
+Store consumer_y.0(2, 3) = 0.146372
+Store consumer_y.0(3, 3) = -0.237233
+End pipeline consumer_y.0()
+
+
+Evaluating producer.compute_at(consumer, y)
+Pseudo-code for the schedule:
+Begin pipeline consumer_root_y.0()
+Tag producer_root_y.0() tag = "func_type_and_dim: 1 2 32 1 2 0 5 0 5"
+Tag consumer_root_y.0() tag = "func_type_and_dim: 1 2 32 1 2 0 4 0 4"
+Store producer_root_y.0(0, 0) = 0.000000
+Store producer_root_y.0(1, 0) = 0.000000
+Store producer_root_y.0(2, 0) = 0.000000
+Store producer_root_y.0(3, 0) = 0.000000
+Store producer_root_y.0(4, 0) = 0.000000
+Store producer_root_y.0(0, 1) = 0.000000
+Store producer_root_y.0(1, 1) = 0.841471
+Store producer_root_y.0(2, 1) = 0.909297
+Store producer_root_y.0(3, 1) = 0.141120
+Store producer_root_y.0(4, 1) = -0.756802
+Store consumer_root_y.0(0, 0) = 0.210368
+Store consumer_root_y.0(1, 0) = 0.437692
+Store consumer_root_y.0(2, 0) = 0.262604
+Store consumer_root_y.0(3, 0) = -0.153921
+Store producer_root_y.0(0, 2) = 0.000000
+Store producer_root_y.0(1, 2) = 0.909297
+Store producer_root_y.0(2, 2) = -0.756802
+Store producer_root_y.0(3, 2) = -0.279415
+Store producer_root_y.0(4, 2) = 0.989358
+Store consumer_root_y.0(0, 1) = 0.437692
+Store consumer_root_y.0(1, 1) = 0.475816
+Store consumer_root_y.0(2, 1) = 0.003550
+Store consumer_root_y.0(3, 1) = 0.023565
+Store producer_root_y.0(0, 3) = 0.000000
+Store producer_root_y.0(1, 3) = 0.141120
+Store producer_root_y.0(2, 3) = -0.279415
+Store producer_root_y.0(3, 3) = 0.412118
+Store producer_root_y.0(4, 3) = -0.536573
+Store consumer_root_y.0(0, 2) = 0.262604
+Store consumer_root_y.0(1, 2) = 0.003550
+Store consumer_root_y.0(2, 2) = -0.225879
+Store consumer_root_y.0(3, 2) = 0.146372
+Store producer_root_y.0(0, 4) = 0.000000
+Store producer_root_y.0(1, 4) = -0.756802
+Store producer_root_y.0(2, 4) = 0.989358
+Store producer_root_y.0(3, 4) = -0.536573
+Store producer_root_y.0(4, 4) = -0.287903
+Store consumer_root_y.0(0, 3) = -0.153921
+Store consumer_root_y.0(1, 3) = 0.023565
+Store consumer_root_y.0(2, 3) = 0.146372
+Store consumer_root_y.0(3, 3) = -0.237233
+End pipeline consumer_root_y.0()
+
+
+Evaluating producer.store_root().compute_at(consumer, y)
+Pseudo-code for the schedule:
+Begin pipeline consumer_root_x.0()
+Tag producer_root_x.0() tag = "func_type_and_dim: 1 2 32 1 2 0 5 0 5"
+Tag consumer_root_x.0() tag = "func_type_and_dim: 1 2 32 1 2 0 4 0 4"
+Store producer_root_x.0(0, 0) = 0.000000
+Store producer_root_x.0(1, 0) = 0.000000
+Store producer_root_x.0(0, 1) = 0.000000
+Store producer_root_x.0(1, 1) = 0.841471
+Store consumer_root_x.0(0, 0) = 0.210368
+Store producer_root_x.0(2, 0) = 0.000000
+Store producer_root_x.0(2, 1) = 0.909297
+Store consumer_root_x.0(1, 0) = 0.437692
+Store producer_root_x.0(3, 0) = 0.000000
+Store producer_root_x.0(3, 1) = 0.141120
+Store consumer_root_x.0(2, 0) = 0.262604
+Store producer_root_x.0(4, 0) = 0.000000
+Store producer_root_x.0(4, 1) = -0.756802
+Store consumer_root_x.0(3, 0) = -0.153921
+Store producer_root_x.0(0, 2) = 0.000000
+Store producer_root_x.0(1, 2) = 0.909297
+Store consumer_root_x.0(0, 1) = 0.437692
+Store producer_root_x.0(2, 2) = -0.756802
+Store consumer_root_x.0(1, 1) = 0.475816
+Store producer_root_x.0(3, 2) = -0.279415
+Store consumer_root_x.0(2, 1) = 0.003550
+Store producer_root_x.0(4, 2) = 0.989358
+Store consumer_root_x.0(3, 1) = 0.023565
+Store producer_root_x.0(0, 3) = 0.000000
+Store producer_root_x.0(1, 3) = 0.141120
+Store consumer_root_x.0(0, 2) = 0.262604
+Store producer_root_x.0(2, 3) = -0.279415
+Store consumer_root_x.0(1, 2) = 0.003550
+Store producer_root_x.0(3, 3) = 0.412118
+Store consumer_root_x.0(2, 2) = -0.225879
+Store producer_root_x.0(4, 3) = -0.536573
+Store consumer_root_x.0(3, 2) = 0.146372
+Store producer_root_x.0(0, 4) = 0.000000
+Store producer_root_x.0(1, 4) = -0.756802
+Store consumer_root_x.0(0, 3) = -0.153921
+Store producer_root_x.0(2, 4) = 0.989358
+Store consumer_root_x.0(1, 3) = 0.023565
+Store producer_root_x.0(3, 4) = -0.536573
+Store consumer_root_x.0(2, 3) = 0.146372
+Store producer_root_x.0(4, 4) = -0.287903
+Store consumer_root_x.0(3, 3) = -0.237233
+End pipeline consumer_root_x.0()
+
+
+Evaluating producer.store_root().compute_at(consumer, x)
+Pseudo-code for the schedule:
+Begin pipeline consumer_tile.0()
+Tag producer_tile.0() tag = "func_type_and_dim: 1 2 32 1 2 0 9 0 9"
+Tag consumer_tile.0() tag = "func_type_and_dim: 1 2 32 1 2 0 8 0 8"
+Store producer_tile.0(0, 0) = 0.000000
+Store producer_tile.0(1, 0) = 0.000000
+Store producer_tile.0(2, 0) = 0.000000
+Store producer_tile.0(3, 0) = 0.000000
+Store producer_tile.0(4, 0) = 0.000000
+Store producer_tile.0(0, 1) = 0.000000
+Store producer_tile.0(1, 1) = 0.841471
+Store producer_tile.0(2, 1) = 0.909297
+Store producer_tile.0(3, 1) = 0.141120
+Store producer_tile.0(4, 1) = -0.756802
+Store producer_tile.0(0, 2) = 0.000000
+Store producer_tile.0(1, 2) = 0.909297
+Store producer_tile.0(2, 2) = -0.756802
+Store producer_tile.0(3, 2) = -0.279415
+Store producer_tile.0(4, 2) = 0.989358
+Store producer_tile.0(0, 3) = 0.000000
+Store producer_tile.0(1, 3) = 0.141120
+Store producer_tile.0(2, 3) = -0.279415
+Store producer_tile.0(3, 3) = 0.412118
+Store producer_tile.0(4, 3) = -0.536573
+Store producer_tile.0(0, 4) = 0.000000
+Store producer_tile.0(1, 4) = -0.756802
+Store producer_tile.0(2, 4) = 0.989358
+Store producer_tile.0(3, 4) = -0.536573
+Store producer_tile.0(4, 4) = -0.287903
+Store consumer_tile.0(0, 0) = 0.210368
+Store consumer_tile.0(1, 0) = 0.437692
+Store consumer_tile.0(2, 0) = 0.262604
+Store consumer_tile.0(3, 0) = -0.153921
+Store consumer_tile.0(0, 1) = 0.437692
+Store consumer_tile.0(1, 1) = 0.475816
+Store consumer_tile.0(2, 1) = 0.003550
+Store consumer_tile.0(3, 1) = 0.023565
+Store consumer_tile.0(0, 2) = 0.262604
+Store consumer_tile.0(1, 2) = 0.003550
+Store consumer_tile.0(2, 2) = -0.225879
+Store consumer_tile.0(3, 2) = 0.146372
+Store consumer_tile.0(0, 3) = -0.153921
+Store consumer_tile.0(1, 3) = 0.023565
+Store consumer_tile.0(2, 3) = 0.146372
+Store consumer_tile.0(3, 3) = -0.237233
+Store producer_tile.0(4, 0) = 0.000000
+Store producer_tile.0(5, 0) = 0.000000
+Store producer_tile.0(6, 0) = 0.000000
+Store producer_tile.0(7, 0) = 0.000000
+Store producer_tile.0(8, 0) = 0.000000
+Store producer_tile.0(4, 1) = -0.756802
+Store producer_tile.0(5, 1) = -0.958924
+Store producer_tile.0(6, 1) = -0.279415
+Store producer_tile.0(7, 1) = 0.656987
+Store producer_tile.0(8, 1) = 0.989358
+Store producer_tile.0(4, 2) = 0.989358
+Store producer_tile.0(5, 2) = -0.544021
+Store producer_tile.0(6, 2) = -0.536573
+Store producer_tile.0(7, 2) = 0.990607
+Store producer_tile.0(8, 2) = -0.287903
+Store producer_tile.0(4, 3) = -0.536573
+Store producer_tile.0(5, 3) = 0.650288
+Store producer_tile.0(6, 3) = -0.750987
+Store producer_tile.0(7, 3) = 0.836656
+Store producer_tile.0(8, 3) = -0.905578
+Store producer_tile.0(4, 4) = -0.287903
+Store producer_tile.0(5, 4) = 0.912945
+Store producer_tile.0(6, 4) = -0.905578
+Store producer_tile.0(7, 4) = 0.270906
+Store producer_tile.0(8, 4) = 0.551427
+Store consumer_tile.0(4, 0) = -0.428932
+Store consumer_tile.0(5, 0) = -0.309585
+Store consumer_tile.0(6, 0) = 0.094393
+Store consumer_tile.0(7, 0) = 0.411586
+Store consumer_tile.0(4, 1) = -0.317597
+Store consumer_tile.0(5, 1) = -0.579733
+Store consumer_tile.0(6, 1) = 0.207901
+Store consumer_tile.0(7, 1) = 0.587262
+Store consumer_tile.0(4, 2) = 0.139763
+Store consumer_tile.0(5, 2) = -0.295323
+Store consumer_tile.0(6, 2) = 0.134926
+Store consumer_tile.0(7, 2) = 0.158445
+Store consumer_tile.0(4, 3) = 0.184689
+Store consumer_tile.0(5, 3) = -0.023333
+Store consumer_tile.0(6, 3) = -0.137251
+Store consumer_tile.0(7, 3) = 0.188352
+Store producer_tile.0(0, 4) = 0.000000
+Store producer_tile.0(1, 4) = -0.756802
+Store producer_tile.0(2, 4) = 0.989358
+Store producer_tile.0(3, 4) = -0.536573
+Store producer_tile.0(4, 4) = -0.287903
+Store producer_tile.0(0, 5) = 0.000000
+Store producer_tile.0(1, 5) = -0.958924
+Store producer_tile.0(2, 5) = -0.544021
+Store producer_tile.0(3, 5) = 0.650288
+Store producer_tile.0(4, 5) = 0.912945
+Store producer_tile.0(0, 6) = 0.000000
+Store producer_tile.0(1, 6) = -0.279415
+Store producer_tile.0(2, 6) = -0.536573
+Store producer_tile.0(3, 6) = -0.750987
+Store producer_tile.0(4, 6) = -0.905578
+Store producer_tile.0(0, 7) = 0.000000
+Store producer_tile.0(1, 7) = 0.656987
+Store producer_tile.0(2, 7) = 0.990607
+Store producer_tile.0(3, 7) = 0.836656
+Store producer_tile.0(4, 7) = 0.270906
+Store producer_tile.0(0, 8) = 0.000000
+Store producer_tile.0(1, 8) = 0.989358
+Store producer_tile.0(2, 8) = -0.287903
+Store producer_tile.0(3, 8) = -0.905578
+Store producer_tile.0(4, 8) = 0.551427
+Store consumer_tile.0(0, 4) = -0.428932
+Store consumer_tile.0(1, 4) = -0.317597
+Store consumer_tile.0(2, 4) = 0.139763
+Store consumer_tile.0(3, 4) = 0.184689
+Store consumer_tile.0(0, 5) = -0.309585
+Store consumer_tile.0(1, 5) = -0.579733
+Store consumer_tile.0(2, 5) = -0.295323
+Store consumer_tile.0(3, 5) = -0.023333
+Store consumer_tile.0(0, 6) = 0.094393
+Store consumer_tile.0(1, 6) = 0.207901
+Store consumer_tile.0(2, 6) = 0.134926
+Store consumer_tile.0(3, 6) = -0.137251
+Store consumer_tile.0(0, 7) = 0.411586
+Store consumer_tile.0(1, 7) = 0.587262
+Store consumer_tile.0(2, 7) = 0.158445
+Store consumer_tile.0(3, 7) = 0.188352
+Store producer_tile.0(4, 4) = -0.287903
+Store producer_tile.0(5, 4) = 0.912945
+Store producer_tile.0(6, 4) = -0.905578
+Store producer_tile.0(7, 4) = 0.270906
+Store producer_tile.0(8, 4) = 0.551427
+Store producer_tile.0(4, 5) = 0.912945
+Store producer_tile.0(5, 5) = -0.132352
+Store producer_tile.0(6, 5) = -0.988032
+Store producer_tile.0(7, 5) = -0.428183
+Store producer_tile.0(8, 5) = 0.745113
+Store producer_tile.0(4, 6) = -0.905578
+Store producer_tile.0(5, 6) = -0.988032
+Store producer_tile.0(6, 6) = -0.991779
+Store producer_tile.0(7, 6) = -0.916522
+Store producer_tile.0(8, 6) = -0.768255
+Store producer_tile.0(4, 7) = 0.270906
+Store producer_tile.0(5, 7) = -0.428183
+Store producer_tile.0(6, 7) = -0.916522
+Store producer_tile.0(7, 7) = -0.953753
+Store producer_tile.0(8, 7) = -0.521551
+Store producer_tile.0(4, 8) = 0.551427
+Store producer_tile.0(5, 8) = 0.745113
+Store producer_tile.0(6, 8) = -0.768255
+Store producer_tile.0(7, 8) = -0.521551
+Store producer_tile.0(8, 8) = 0.920026
+Store consumer_tile.0(4, 4) = 0.351409
+Store consumer_tile.0(5, 4) = -0.278254
+Store consumer_tile.0(6, 4) = -0.512722
+Store consumer_tile.0(7, 4) = 0.284816
+Store consumer_tile.0(4, 5) = -0.278254
+Store consumer_tile.0(5, 5) = -0.775048
+Store consumer_tile.0(6, 5) = -0.831129
+Store consumer_tile.0(7, 5) = -0.341961
+Store consumer_tile.0(4, 6) = -0.512722
+Store consumer_tile.0(5, 6) = -0.831129
+Store consumer_tile.0(6, 6) = -0.944644
+Store consumer_tile.0(7, 6) = -0.790020
+Store consumer_tile.0(4, 7) = 0.284816
+Store consumer_tile.0(5, 7) = -0.341961
+Store consumer_tile.0(6, 7) = -0.790020
+Store consumer_tile.0(7, 7) = -0.269207
+End pipeline consumer_tile.0()
+
+
+Evaluating:
+consumer.tile(x, y, x_outer, y_outer, x_inner, y_inner, 4, 4);
+producer.compute_at(consumer, x_outer);
+Pseudo-code for the schedule:
+
+Pseudo-code for the schedule:
+
+Success!
